@@ -1,8 +1,8 @@
 {
-  "name": "example-java-mod",
-  "displayName": "Example Java Mod",
-  "author": "Anuke",
-  "main": "example.ExampleJavaMod",
+  "name": "duomod",
+  "displayName": "duo is god",
+  "author": "newB",
+  "main": "duomod.duomod",
   "description": "A jar mod.",
   "version": 1.0,
   "minGameVersion": 122
