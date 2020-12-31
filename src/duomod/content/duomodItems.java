@@ -1,10 +1,10 @@
-package example.content;
+package duomod.content;
 
 import arc.graphics.*;
 import mindustry.ctype.*;
 import mindustry.type.*;
 
-public class DItems implements ContentList{
+public class duomodItems implements ContentList{
     public static Item duonium;
 
     @Override
