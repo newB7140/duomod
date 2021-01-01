@@ -19,5 +19,6 @@ public class duomod extends Mod{
     @Override
     public void loadContent(){
         new duomodItems().load();
+        new duomodBlocks().load();
     }
 }
