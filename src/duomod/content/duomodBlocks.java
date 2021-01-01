@@ -44,7 +44,7 @@ public class duomodBlocks implements ContentList{
     public void load(){
 
         duoniumcomposer = new GenericCrafter("duoniumcomposer"){{
-            requirements(Category.crafting, with(Items.copper, 60));
+            requirements(Category.crafting, with(Items.duonium, 60));
             craftEffect = Fx.smeltsmoke;
             outputItem = new ItemStack(Items.copper, 1);
         }};
