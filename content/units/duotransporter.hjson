@@ -1,0 +1,75 @@
+flying: true 
+speed: 1.2
+accel: 0.1
+drag: 0.01
+health: 950
+armor: 4
+engineOffset: 9.0
+range: 130
+hitSize: 13
+
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 6  
+        shootSound: shoot 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 15 
+            speed: 6 
+            width: 8 
+            height: 10  
+            frontColor: f3e979 
+            backColor: f3e97966 
+            lifetime: 15 
+            sprite: bullet  
+        } 
+    },
+    { 
+        name: machinegunduo-right
+        y: 0 
+        x: 3
+        reload: 6  
+        shootSound: shoot 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 9 
+            speed: 6 
+            width: 5 
+            height: 6 
+            frontColor: f3e979 
+            backColor: f3e97966 
+            lifetime: 15
+            sprite: bullet  
+        } 
+    },
+    { 
+        name: machinegunduo-left
+        y: 0 
+        x: -3
+        reload: 6  
+        shootSound: shoot 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 9 
+            speed: 6 
+            width: 5 
+            height: 6 
+            frontColor: f3e979 
+            backColor: f3e97966 
+            lifetime: 15 
+            sprite: bullet  
+        } 
+    }
+]
+research: { 
+    parent: duointerceptor
+    requirements: 
+    [ 
+        {item: copper, amount: 4000},
+        {item: duonium, amount: 1200},
+        {item: silicon, amount: 1500}
+    ]
+}

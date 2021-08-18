@@ -1,0 +1,11 @@
+name: duomodule
+color: a07b6e
+research: { 
+    parent: duonium 
+    requirements: 
+    [ 
+        {item: copper, amount: 3800},
+        {item: silicon, amount: 1500},
+        {item: titanium, amount: 1900},
+    ]
+}

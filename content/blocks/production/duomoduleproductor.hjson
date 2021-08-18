@@ -1,0 +1,33 @@
+type: GenericCrafter 
+
+health: 350
+size: 4 
+
+hasItems: true
+hasPower: true
+itemCapacity: 35 
+
+requirements: [ 
+    copper/200 
+    lead/150
+    silicon/60
+    titanium/30
+] 
+
+consumes: {  
+    power: 2.5
+    items: { 
+        items: [ 
+            duonium/3
+            silicon/2
+            titanium/2
+        ] 
+    }
+}
+outputItem: duomodule/1
+
+craftTime: 90
+craftEffect: none 
+
+category: crafting
+research: duoniumcomposer

@@ -1,0 +1,42 @@
+type: flying
+flying: true 
+speed: 0.6
+accel: 0.08
+drag: 0.01
+health: 4000
+engineOffset: 0
+range: 80
+hitSize: 8
+targetAir: false
+circleTarget: true
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 300  
+        shootSound: shoot 
+        shake: 10
+        cooldownTime: 180
+        bullet: { 
+            type: BombBulletType  
+            width: 1
+            height: 1
+            splashDamageRadius: 80 
+            splashDamage: 800
+            hitEffect: greenLaserCharge
+            shootEffect: greenLaserChargeSmall
+            hitShake: 5
+        } 
+    }
+]
+research: { 
+    parent: duo-experiment-factory
+    requirements: 
+    [ 
+        {item: copper, amount: 1500},
+        {item: titanium, amount: 2500},
+        {item: silicon, amount: 2000},
+        {item: duomodule, amount: 300}
+    ]
+}

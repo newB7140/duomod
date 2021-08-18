@@ -1,0 +1,37 @@
+type: UnitFactory 
+
+health: 100
+size: 1
+itemCapacity: 60 
+
+requirements: [ 
+    copper/50 
+    lead/30 
+    duonium/10
+    duomodule/5
+] 
+plans: [ 
+    {
+        unit: spiritduo
+        requirements: [
+            duomodule/2
+        ]
+        time:600
+    },
+    {
+        unit: (MSDC)
+        requirements: [
+            duomodule/10
+            silicon/20 
+        ]
+        time:600
+    }
+]
+
+category: units 
+
+consumes: { 
+    power: 1.5
+} 
+
+research: duofactory

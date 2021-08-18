@@ -1,0 +1,52 @@
+type: naval
+speed: 0.8
+accel: 0.13
+drag: 0.01
+health: 200
+hitSize: 7
+lotateSpeed: 3.3
+trailLength: 15
+rotateShooting: false
+weapons: [ 
+    { 
+        name: duogun-left
+        y: 0 
+        x: -0.6 
+        reload: 20  
+        shootSound: shoot 
+        rotate: true
+        bullet: { 
+            type: BasicBulletType  
+            speed: 4  
+            lifetime: 40
+            width: 5
+            height: 6
+            damage: 20
+            sprite: bullet
+        }
+    },
+     { 
+        name: duogun-right
+        y: 0 
+        x: 0.6
+        reload: 20  
+        shootSound: shoot 
+        rotate: true
+        bullet: { 
+            type: BasicBulletType  
+            speed: 4  
+            lifetime: 40
+            width: 5
+            height: 6
+            damage: 20
+            sprite: bullet
+        }
+    }
+]
+research: { 
+    parent: duo-dockyard
+    requirements: 
+    [ 
+        {item: duonium, amount: 100}
+    ]
+}

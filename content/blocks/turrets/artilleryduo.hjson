@@ -1,0 +1,39 @@
+type: ItemTurret
+name: artilleryduo
+requirements: [
+    copper/200,
+    duonium/20,
+    silicon/30
+] 
+
+ammoTypes: { 
+    duonium: {
+        type: ArtilleryBulletType 
+        damage: 60
+        speed: 2 
+        lifetime: 130
+        width: 10
+        height: 12
+        hitEffect: blastExplosion
+        knockback: 0.8
+        splashDamage: 30
+        splashDamageRadius: 20
+        sprite: duomod-duobullet
+    }
+} 
+
+reloadTime: 60
+range: 250
+size: 2
+shots: 2
+targetGround: true
+targetAir: false
+recoilAmount: 3
+rotateSpeed: 10
+inaccuracy: 2
+shootCone: 6
+health: 900
+shootSound: shootSnap 
+
+category: turret
+research: duo

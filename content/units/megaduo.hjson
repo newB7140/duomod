@@ -1,0 +1,72 @@
+type: mech
+speed: 0.35
+health: 850
+armor: 4
+hitSize: 14
+engineOffset: 10
+engineSize: 6
+weapons: [ 
+    { 
+        name: none
+        reload: 60 
+        x: 0
+        y: 1
+        top: false 
+        bullet: { 
+            type: LaserBulletType 
+            damage: 120 
+            speed: 0.001 
+            width: 15 
+            length: 200
+            chargeTime: 0.001
+            chargeBeginEffect: lancerLaserchargeBegin
+            sprite: laser
+        } 
+    },
+    { 
+        name: duogun-left
+        reload: 10 
+        x: -3
+        y: -3
+        top: false 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 12 
+            speed: 3.2 
+            width: 5 
+            height: 6 
+            frontColor: f8ad42
+            backColor: f68021
+            lifetime: 60 
+            sprite: bullet
+        } 
+    },
+    { 
+        name: duogun-right
+        reload: 10 
+        x: 3
+        y: -3
+        top: false 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 12 
+            speed: 3.2 
+            width: 5 
+            height: 6 
+            frontColor: f8ad42
+            backColor: f68021
+            lifetime: 60 
+            sprite: bullet
+        } 
+    },
+]
+
+research: { 
+    parent: multiduo 
+    requirements: 
+    [ 
+        {item: copper, amount: 5000},
+        {item: duonium, amount: 300},
+        {item: silicon, amount: 1000}
+    ]
+}

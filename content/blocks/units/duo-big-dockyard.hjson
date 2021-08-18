@@ -1,0 +1,32 @@
+type: UnitFactory 
+
+health: 600
+size: 5
+itemCapacity: 100 
+placeableLiquid: true
+
+requirements: [ 
+    silicon/40 
+    titanium/50
+    lead/120 
+    duonium/30
+] 
+plans: [ 
+    {
+        unit: frigateduo
+        requirements: [
+            duonium/10
+            lead/15
+            silicon/5
+        ]
+        time: 900
+    }
+]
+
+category: units 
+
+consumes: { 
+    power: 5
+} 
+
+research: duo-dockyard

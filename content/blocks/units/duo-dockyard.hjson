@@ -1,0 +1,36 @@
+type: UnitFactory 
+
+health: 200
+size: 2
+itemCapacity: 20 
+placeableLiquid: true
+
+requirements: [ 
+    silicon/40 
+    lead/50 
+    duonium/15
+] 
+plans: [ 
+    {
+        unit: gunboatduo
+        requirements: [
+            duonium/5
+        ]
+        time: 450
+    },
+    {
+        unit: corvettduo
+        requirements: [
+            duonium/10
+        ]
+        time: 600
+    }
+]
+
+category: units 
+
+consumes: { 
+    power: 2
+} 
+
+research: duofactory

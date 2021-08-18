@@ -1,0 +1,36 @@
+flying: true 
+speed: 1.5
+accel: 0.08
+drag: 0.01
+health: 100
+engineOffset: 5.0
+range: 100
+hitSize: 7
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 20  
+        shootSound: shoot 
+        bullet: { 
+            type: LaserBoltBulletType  
+            speed: 3  
+            lifetime: 40
+            damage: 15
+            healPercent: 7
+            collidesTeam: true 
+            backColor: bfef8f
+            frontColor: ffffff 
+        } 
+    }
+]
+research: { 
+    parent: duo-experiment-factory
+    requirements: 
+    [ 
+        {item: copper, amount: 500},
+        {item: titanium, amount: 300},
+        {item: silicon, amount: 200},
+    ]
+}

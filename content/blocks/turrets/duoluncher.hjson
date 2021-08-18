@@ -1,0 +1,34 @@
+type: ItemTurret
+name: duoluncher 
+requirements: [
+    copper/140
+] 
+
+ammoTypes: { 
+    duonium: {
+        type: BasicBulletType 
+        damage: 20
+        speed: 4 
+        lifetime: 42
+        width: 5
+        height: 6 
+        ammoPerShot: 10
+        sprite: duomod-duobullet
+    }
+} 
+
+reloadTime: 6
+range: 168
+size: 2
+shots: 1
+targetGround: true
+targetAir: true 
+recoilAmount: 1
+rotateSpeed: 15
+inaccuracy: 0
+shootCone: 6
+health: 900
+shootSound: shootSnap 
+
+category: turret
+research: duo

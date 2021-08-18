@@ -1,0 +1,33 @@
+type: ItemTurret
+name: lightningduo 
+requirements: [
+    copper/40
+    duonium/5
+] 
+
+ammoTypes: { 
+    copper: {
+        type: LightningBulletType 
+        damage: 20
+        speed: 0.001 
+        lightninglength: 12
+        lightninglengthRand: 2
+        lightningcolor: 8fefef
+    }
+} 
+
+reloadTime: 10
+range: 88
+size: 1
+shots: 1
+targetGround: true
+targetAir: true 
+recoilAmount: 1
+rotateSpeed: 20
+inaccuracy: 0
+shootCone: 6
+health: 250
+shootSound: shootSnap 
+
+category: turret
+research: duo

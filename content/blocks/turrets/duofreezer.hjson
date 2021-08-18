@@ -1,0 +1,40 @@
+type: itemTurret
+name: duofreezer
+requirements: [
+    copper/110
+    duonium/10
+    metaglass/20
+    
+] 
+
+ammoTypes: { 
+    copper: {
+        type: BasicBulletType 
+        damage: 2
+        speed: 10 
+        lifetime: 12
+        width: 14
+        height: 14 
+        status: freezing
+        splashDamageRadius: 20
+        splashDamage: 1
+        hitEffect: none
+        despawnEffect: none
+        sprite: duomod-coolbullet
+    }
+} 
+
+reloadTime: 30
+range: 120
+size: 2
+shots: 120
+targetGround: true
+targetAir: true 
+recoilAmount: 0
+rotateSpeed: 15
+inaccuracy: 90
+shootCone: 6
+health: 500
+
+category: turret
+research: wave

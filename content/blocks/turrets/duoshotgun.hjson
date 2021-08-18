@@ -1,0 +1,36 @@
+type: ItemTurret
+name: duoshotgun 
+requirements: [
+    copper/240
+    duonium/40
+    lead/90
+    silicon/15
+] 
+
+ammoTypes: { 
+    duonium: {
+        type: BasicBulletType 
+        damage: 30
+        speed: 5 
+        lifetime: 12
+        width: 4
+        height: 5 
+        sprite: duomod-duobullet
+    }
+} 
+
+reloadTime: 30
+range: 60
+size: 2
+shots: 12
+targetGround: true
+targetAir: true
+recoilAmount: 3
+rotateSpeed: 10
+inaccuracy: 5
+shootCone: 6
+health: 800
+shootSound: shootSnap 
+
+category: turret
+research: duo

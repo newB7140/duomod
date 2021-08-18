@@ -1,0 +1,37 @@
+type: Reconstructor 
+
+health: 200
+size: 3
+itemCapacity: 50
+constructTime: 450 
+
+requirements: [ 
+    copper/150 
+    lead/90 
+    duonium/10
+] 
+
+upgrades: [ 
+    [miniduo, multiduo],
+    [heavyduo, armorduo],
+    [duodron, duointerceptor]
+] 
+
+consumes: { 
+    items: { 
+        items: [ 
+            { 
+                item: duonium 
+                amount: 2 
+            }, 
+            { 
+                item: lead 
+                amount: 20 
+            }
+        ] 
+    } 
+    power: 1.5
+} 
+
+category: units
+research: duofactory

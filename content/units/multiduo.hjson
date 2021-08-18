@@ -1,0 +1,52 @@
+type: mech
+speed: 0.4
+health: 550
+armor: 7
+hitSize: 10
+weapons: [ 
+    { 
+        name: none
+        reload: 10 
+        x: 2
+        y: 0
+        top: false 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 12 
+            speed: 3 
+            width: 7 
+            height: 9 
+            frontColor: f8ad42
+            backColor: f68021
+            lifetime: 50 
+            sprite: bullet
+        } 
+    },
+    { 
+        name: none
+        reload: 12 
+        x: -2
+        y: 0
+        top: false 
+        bullet: { 
+            type: BasicBulletType 
+            damage: 10
+            speed: 3 
+            width: 7 
+            height: 9 
+            frontColor: f8ad42
+            backColor: f68021
+            lifetime: 50 
+            sprite: bullet
+        } 
+    }
+]
+
+research: { 
+    parent: miniduo 
+    requirements: 
+    [ 
+        {item: copper, amount: 700},
+        {item: duonium, amount: 50}
+    ]
+}

@@ -1,0 +1,9 @@
+name: duonium
+color: b07b6e
+research: { 
+    parent:copper 
+    requirements: 
+    [ 
+        {item: copper, amount: 800}
+    ]
+}

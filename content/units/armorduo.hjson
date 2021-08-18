@@ -1,0 +1,44 @@
+type: mech
+speed: 0.3
+health: 750
+armor: 8
+hitSize:10
+weapons: [ 
+    { 
+        name: none
+        reload: 80
+        x: 0
+        y: 2
+        top: false  
+        bullet: { 
+            type: MissileBulletType 
+            speed: 3 
+            damage: 30 
+            width: 8 
+            height: 8 
+            shrinkY: 0 
+            drag: -0.003 
+            homingRange: 60 
+            keepVelocity: false
+            splashDamageRadius: 25 
+            splashDamage: 40 
+            lifetime: 60 
+            trailColor: d06b53 
+            backColor: d06b53 
+            frontColor: d06b53 
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+            weaveScale: 0
+            weaveMag: 1
+        } 
+    }
+]
+
+research: { 
+    parent: heavyduo 
+    requirements: 
+    [ 
+        {item: copper, amount: 1000},
+        {item: duonium, amount: 200}
+    ]
+}

@@ -1,0 +1,43 @@
+type: flying
+speed: 0.6 
+health: 1000 
+drag: 0.3 
+armor: 10 
+rotateSpeed: 3.5 
+hitSize: 12 
+rotateShooting: false 
+weapons: [ 
+    { 
+        name: duoartillery 
+        reload: 90 
+        x: 0 
+        y: 0 
+        top: true 
+        rotate: true 
+        bullet: { 
+            type: BasicBulletType 
+            speed: 8 
+            damage: 100 
+            pierce: true
+            pierceCap: 10
+            width: 13 
+            height: 15
+            splashDamageRadius: 30 
+            splashDamage: 20 
+            lifetime: 33 
+            trailColor: d06b53 
+            backColor: d06b53 
+            frontColor: d06b53 
+            hitEffect: blastExplosion
+        } 
+    } 
+] 
+
+research: { 
+    parent: armorduo 
+    requirements: [ 
+        {item: copper, amount: 3000}, 
+        {item: duonium, amount: 200}, 
+        {item: silicon, amount: 500} 
+    ] 
+}

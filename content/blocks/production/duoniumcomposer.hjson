@@ -1,0 +1,28 @@
+type: GenericCrafter 
+
+health: 250
+size: 2 
+
+hasItems: true
+hasPower: false
+itemCapacity: 20 
+
+requirements: [ 
+    copper/30 
+    lead/20 
+] 
+
+consumes: {  
+    items: { 
+        items: [ 
+            copper/5 
+        ] 
+    }
+}
+outputItem: duonium/1
+
+craftTime: 80
+craftEffect: none 
+
+category: crafting
+research: graphite-press

@@ -1,0 +1,40 @@
+type: Reconstructor 
+
+health: 580
+size: 5
+itemCapacity: 100
+constructTime: 1500 
+
+requirements: [ 
+    copper/350 
+    lead/150 
+    duonium/20
+    silicon/40
+] 
+
+upgrades: [ 
+    [megaduo, gigaduo]
+] 
+
+consumes: { 
+    items: { 
+        items: [ 
+            { 
+                item: duonium 
+                amount: 10 
+            }, 
+            { 
+                item: silicon 
+                amount: 50 
+            },
+            {
+                item:titanium
+                amount: 10
+            }
+        ] 
+    } 
+    power: 5
+} 
+
+category: units
+research: duo-multiplicative-reconstructor

@@ -1,0 +1,40 @@
+type: UnitFactory 
+
+health: 100
+size: 1
+itemCapacity: 30 
+
+requirements: [ 
+    copper/50 
+    lead/30 
+] 
+plans: [ 
+    { 
+        unit: miniduo
+        requirements: [ 
+            copper/6 
+        ] 
+        time: 300
+    },
+    {
+        unit:heavyduo
+        requirements: [
+            copper/15
+        ]
+        time:450
+    }, 
+    {
+        unit:duodron
+        requirements: [
+            copper/10
+        ]
+        time:360
+    }
+]
+
+category: units 
+
+consumes: { 
+} 
+
+research: duo

@@ -1,0 +1,49 @@
+type: ItemTurret
+name: Laycastduo 
+requirements: [
+    copper/50
+    silicon/40
+    titanium/25
+    duomodule/5
+] 
+
+ammoTypes: { 
+    duonium: {
+        type: LaserBoltBulletType  
+        speed: 5  
+        lifetime: 40
+        damage: 100
+        healPercent: 8
+        collidesTeam: true 
+        backColor: bfef8f
+        frontColor: ffffff 
+    },
+    copper: {
+        type: LaserBoltBulletType  
+        speed: 4  
+        lifetime: 50
+        damage: 50
+        healPercent: 5
+        collidesTeam: true 
+        backColor: bfef8f
+        frontColor: ffffff 
+        width: 2
+        height: 4
+    }
+} 
+
+reloadTime: 60
+range: 176
+size: 2
+shots: 1
+targetGround: true
+targetAir: true 
+recoilAmount: 1
+rotateSpeed: 15
+inaccuracy: 0
+shootCone: 6
+health: 400
+shootSound: shootSnap 
+
+category: turret
+research: lightningduo

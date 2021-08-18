@@ -1,0 +1,25 @@
+type: MassDriver 
+size: 1
+health: 50
+itemCapacity: 30 
+
+requirements: [  
+    copper/50 
+    lead/40
+]
+
+consumes: { 
+    power: 0.5
+} 
+
+range: 280
+rotateSpeed: 0.08
+translation: 10
+minDistribute: 10
+knockback: 2
+reloadTime: 30
+bulletSpeed: 3
+bulletLifetime: 300
+shake: 1 
+category: distribution
+research: conveyor
