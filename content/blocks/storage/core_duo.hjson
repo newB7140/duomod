@@ -1,0 +1,17 @@
+
+size: 2
+health: 800
+
+requirements: [
+    copper/500
+    lead/400
+    duonium/150
+]
+
+unitType: poly
+itemCapacity: 1000
+unitCapModifier: 4
+
+research: duo
+
+research: duo
