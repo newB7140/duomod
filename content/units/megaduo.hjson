@@ -29,17 +29,7 @@ weapons: [
         x: -3
         y: -3
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 12 
-            speed: 3.2 
-            width: 5 
-            height: 6 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 60 
-            sprite: bullet
-        } 
+        bullet: standardHoming
     },
     { 
         name: duogun-right
@@ -47,17 +37,7 @@ weapons: [
         x: 3
         y: -3
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 12 
-            speed: 3.2 
-            width: 5 
-            height: 6 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 60 
-            sprite: bullet
-        } 
+        bullet: standardHoming
     },
 ]
 
