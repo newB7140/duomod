@@ -17,7 +17,7 @@ weapons: [
         bullet: { 
             type: BasicBulletType 
             speed: 8 
-            damage: 150 
+            damage: 120 
             pierce: true
             pierceBuilding = true
             pierceCap: 3
