@@ -5,21 +5,11 @@ armor: 5
 weapons: [ 
     { 
         name: none
-        reload: 60
+        reload: 90
         x: 0
         y: 0
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 40
-            speed: 3 
-            width: 12 
-            height: 14 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 40 
-            sprite: bullet
-        } 
+        bullet: standardDenseBig
     }
 ]
 
