@@ -10,35 +10,15 @@ weapons: [
         x: 2
         y: 0
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 12 
-            speed: 3 
-            width: 7 
-            height: 9 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 50 
-            sprite: bullet
-        } 
+        bullet: standardCopper
     },
     { 
         name: none
-        reload: 12 
+        reload: 10
         x: -2
         y: 0
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 10
-            speed: 3 
-            width: 7 
-            height: 9 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 50 
-            sprite: bullet
-        } 
+        bullet: standardCopper
     }
 ]
 
