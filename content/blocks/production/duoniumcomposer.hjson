@@ -22,7 +22,7 @@ consumes: {
 outputItem: duonium/1
 
 craftTime: 80
-craftEffect: none 
+craftEffect: pulverizeMedium
 
 category: crafting
 research: graphite-press
