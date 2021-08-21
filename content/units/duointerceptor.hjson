@@ -14,17 +14,7 @@ weapons: [
         x: 0 
         reload: 12  
         shootSound: shoot 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 9 
-            speed: 5 
-            width: 7 
-            height: 9 
-            frontColor: f3e979 
-            backColor: f3e97966 
-            lifetime: 32 
-            sprite: bullet  
-        } 
+        bullet: standardHoming
     },
     { 
         name: none 
@@ -32,17 +22,7 @@ weapons: [
         x: 3
         reload: 24  
         shootSound: shoot 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 9 
-            speed: 5 
-            width: 5 
-            height: 6 
-            frontColor: f3e979 
-            backColor: f3e97966 
-            lifetime: 32 
-            sprite: bullet  
-        } 
+        bullet: standardHoming
     },
     { 
         name: none 
@@ -50,17 +30,7 @@ weapons: [
         x: -3
         reload: 24  
         shootSound: shoot 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 9 
-            speed: 5 
-            width: 5 
-            height: 6 
-            frontColor: f3e979 
-            backColor: f3e97966 
-            lifetime: 32 
-            sprite: bullet  
-        } 
+        bullet: standardHoming
     }
 ]
 research: { 
