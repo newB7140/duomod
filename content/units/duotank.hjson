@@ -19,7 +19,7 @@ weapons: [
             speed: 8 
             damage: 120 
             pierce: true
-            pierceBuilding = true
+            pierceBuilding: true
             pierceCap: 3 
             width: 13 
             height: 15
