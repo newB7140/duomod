@@ -12,6 +12,7 @@ unitType: poly
 itemCapacity: 1000
 unitCapModifier: 4
 
-research: duo
+buildVisibility: shown
+category: effect
 
 research: duo
