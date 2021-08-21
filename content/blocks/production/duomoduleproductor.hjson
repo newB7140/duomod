@@ -27,7 +27,7 @@ consumes: {
 outputItem: duomodule/1
 
 craftTime: 90
-craftEffect: none 
+craftEffect: smeltsmoke
 
 category: crafting
 research: duoniumcomposer
