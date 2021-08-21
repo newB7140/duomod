@@ -3,7 +3,7 @@ flying: true
 speed: 0.6
 accel: 0.08
 drag: 0.01
-health: 4000
+health: 3000
 engineOffset: 0
 range: 80
 hitSize: 8
