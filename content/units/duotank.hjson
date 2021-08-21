@@ -20,7 +20,7 @@ weapons: [
             damage: 120 
             pierce: true
             pierceBuilding = true
-            pierceCap: 3
+            pierceCap: 3 
             width: 13 
             height: 15
             splashDamageRadius: 30 
