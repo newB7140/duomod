@@ -10,17 +10,7 @@ weapons: [
         x: 0
         y: 0
         top: false 
-        bullet: { 
-            type: BasicBulletType 
-            damage: 9 
-            speed: 2.4
-            width: 5 
-            height: 6 
-            frontColor: f8ad42
-            backColor: f68021
-            lifetime: 50 
-            sprite: bullet
-        } 
+        bullet: standardCopper
     }
 ]
 
