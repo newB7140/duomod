@@ -7,19 +7,15 @@ hasLiquids: true
 hasPower: false
 itemCapacity: 20
 liquidCapacity: 30
-itemDuration: 90
 
 requirements: [
     copper/200
     graphite/80
-	duonium/120
+    duonium/120
     silicon/50
     titanium/80
 ]
 consumes: {
-    items: {
-        items : duonium/1
-	}
     liquid: {
         liquid: cryofluid
         amount: 0.3
@@ -38,4 +34,4 @@ updateEffect: pulverizeMedium
 drillEffect: mineBig
 
 category: production
-research: blast-drill
+research: mechanicalDrill
