@@ -1,6 +1,7 @@
 name: "duomod" 
 displayName: "duomod" 
-author: "NewB"
+author: "뉴B"
 description: "듀오만세"
+"스프라이트 도움: ss심"
 version: "1.10" 
 minGameVersion: "122"
