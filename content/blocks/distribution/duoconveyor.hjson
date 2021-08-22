@@ -2,7 +2,7 @@ type: StackConveyor
 
 health: 50
 itemCapacity: 5
-speed: 4/60
+speed: 0.06666
 
 requirements: [ 
     duonium/1  
