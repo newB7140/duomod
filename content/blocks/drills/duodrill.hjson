@@ -17,8 +17,8 @@ requirements: [
     titanium/80
 ]
 consumes: {
-	items: {
-		items : duonium/1
+    items: {
+        items : duonium/1
 	}
     liquid: {
         liquid: cryofluid
