@@ -1,0 +1,12 @@
+type: StackConveyor
+
+health: 50
+itemCapacity: 5
+speed: 4/60
+
+requirements: [ 
+    duonium/1  
+] 
+
+research: conveyor
+category: distribution
