@@ -11,6 +11,7 @@ requirements: [
     copper/50 
     lead/30
     duonium/20
+    graphite/25
 ] 
 
 consumes: {  
