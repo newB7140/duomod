@@ -1,0 +1,30 @@
+type: GenericCrafter 
+
+health: 480
+size: 3 
+
+hasItems: true
+hasPower: true
+itemCapacity: 35 
+
+requirements: [ 
+    copper/50 
+    lead/30
+    duonium/20
+] 
+
+consumes: {  
+    power: 1
+    items: { 
+        items: [ 
+            copper/7
+        ] 
+    }
+}
+outputItem: duonium/4
+
+craftTime: 40
+craftEffect: pulverizeMedium
+
+category: crafting
+research: duoniumcomposer
