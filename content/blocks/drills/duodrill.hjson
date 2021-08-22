@@ -1,0 +1,41 @@
+type: Drill
+
+size: 3
+health: 550
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+liquidCapacity: 30
+itemDuration: 90
+
+requirements: [
+    copper/200
+    graphite/80
+	duonium/120
+    silicon/50
+    titanium/80
+]
+consumes: {
+	items: {
+		items : duonium/1
+	}
+    liquid: {
+        liquid: cryofluid
+        amount: 0.3
+        booster: true
+        optional: true
+    }
+}
+
+drawMineItem: true
+rotateSpeed: 2.25
+liquidBoostIntensity: 2.0
+drawRim: true
+drillTime: 200
+tier: 2
+updateEffect: pulverizeMedium
+drillEffect: mineBig
+
+category: production
+research: blast-drill
