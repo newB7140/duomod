@@ -6,11 +6,11 @@ armor: 5
 weapons: [ 
     { 
         name: none
-        reload: 90
+        reload: 20
         x: 0
         y: 0
         top: false 
-        bullet: standardDenseBig
+        bullet: standardDense
     }
 ]
 
