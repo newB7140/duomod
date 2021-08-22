@@ -3,6 +3,7 @@ type: UnitFactory
 health: 100
 size: 1
 itemCapacity: 30 
+solid: false
 
 requirements: [ 
     copper/50 
