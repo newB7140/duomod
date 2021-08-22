@@ -34,4 +34,4 @@ updateEffect: pulverizeMedium
 drillEffect: mineBig
 
 category: production
-research: mechanicalDrill
+research: mechanical-drill
