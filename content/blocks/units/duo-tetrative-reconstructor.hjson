@@ -4,6 +4,7 @@ health: 580
 size: 5
 itemCapacity: 100
 constructTime: 1500 
+solid: false
 
 requirements: [ 
     copper/350 
