@@ -1,5 +1,6 @@
 type: Separator
 size: 2
+health: 650
 
 hasItems: true
 hasPower: true
