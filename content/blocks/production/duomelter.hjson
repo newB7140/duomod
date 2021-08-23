@@ -20,7 +20,7 @@ consumes: {
 }
 outputLiquid : {
     liquid: duoliquid
-    amount: 12
+    amount: 18
 }
 craftTime: 30
 craftEffect: steam
