@@ -4,6 +4,7 @@ size: 2
 
 hasItems: true
 hasPower: true
+hasLiquids: true
 itemCapacity: 20
 liquidCapacity: 100
 
