@@ -35,7 +35,7 @@ results: [
 ]
 
 craftTime: 20
-craftEffect: producesmoke
+craftEffect: pulverizeSmall
 category: crafting
 research: duomelter
     
