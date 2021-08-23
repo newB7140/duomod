@@ -1,0 +1,29 @@
+health: 200
+size: 1
+
+hasItems: true
+hasPower: true
+itemCapacity: 20
+liquidCapacity: 100
+
+requirements: [
+  copper/25
+  duonium/20
+  metaglass/10
+]
+
+consumes: {
+  items: {
+    items:[duonium/1]
+    power: 0.5
+  }
+}
+outputLiquid : {
+    liquid: duoliquid
+    amount: 12
+}
+craftTime: 30
+craftEffect: steam
+
+category: production
+research: duoniumcomposer
