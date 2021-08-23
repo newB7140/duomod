@@ -26,14 +26,9 @@ consumes: {
     }
 }
 
-results: [
-    items: {
-        copper/4
-        duonium/1
-        scrap/4
-        graphite/1
-    }
-]
+results: {
+    items: [copper/4, duonium/1, scrap/4, graphite/1]
+}
 
 craftTime: 20
 category: crafting
