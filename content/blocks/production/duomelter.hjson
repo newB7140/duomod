@@ -26,5 +26,5 @@ outputLiquid : {
 craftTime: 30
 craftEffect: steam
 
-category: production
+category: crafting
 research: duoniumcomposer
