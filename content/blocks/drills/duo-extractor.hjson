@@ -15,13 +15,13 @@ consumes: {
     power: 0.3
 }
 
-pumpAmount: 0.1
+pumpAmount: 0.15
 rotateSpeed: 1.6
 result: duoliquid
 baseEfficiency: 0.5
 attribute: water
 updateEffect: pulverize
-updateEffectChance: 0.4
+updateEffectChance: 0.08
 
 category: production
 research: duodrill
