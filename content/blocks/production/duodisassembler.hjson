@@ -10,8 +10,8 @@ itemCapacity: 15
 
 requirements: [ 
     copper/80 
-    duonium/20
-    silicon/25
+    duonium/30
+    lead/45
 ] 
 
 consumes: {  
