@@ -18,7 +18,7 @@ requirements: [
 consumes: {
     liquid: {
         liquid: duoliquid
-        amount: 0.3
+        amount: 0.1
         booster: true
         optional: true
     }
