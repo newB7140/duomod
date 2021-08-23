@@ -1,5 +1,6 @@
 flying: true 
 speed: 1.5
+controller: repairAI
 accel: 0.08
 drag: 0.01
 health: 100
