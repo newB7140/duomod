@@ -11,7 +11,7 @@ liquidCapacity: 100
 requirements: [
   copper/25
   duonium/20
-  metaglass/10
+  graphite/10
 ]
 
 consumes: {
