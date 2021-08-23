@@ -25,7 +25,7 @@ outputLiquid : {
     amount: 18
 }
 craftTime: 30
-craftEffect: smoke
+craftEffect: steam
 
 category: crafting
 research: duoniumcomposer
