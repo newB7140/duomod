@@ -24,7 +24,7 @@ outputLiquid : {
     amount: 18
 }
 craftTime: 30
-craftEffect: steam
+craftEffect: formsmoke
 
 category: crafting
 research: duoniumcomposer
