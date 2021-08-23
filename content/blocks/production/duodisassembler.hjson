@@ -1,0 +1,39 @@
+type: Separator
+size: 2
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+liquidCapacity: 25
+itemCapacity: 15
+
+requirements: [ 
+    copper/80 
+    duonium/20
+    silicon/25
+] 
+
+consumes: {  
+    power: 1.6
+    liquid: {
+        liquid: duoliquid
+        amount: 0.1
+    }
+    items: { 
+        items: [ 
+            copper/1
+        ] 
+    }
+}
+
+results: {
+    copper/4
+    duonium/1
+    scrap/4
+    graphite/1
+}
+
+craftTime: 20
+category: crafting
+research: duomelter
+    
