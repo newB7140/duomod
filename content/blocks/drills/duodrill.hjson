@@ -17,7 +17,7 @@ requirements: [
 ]
 consumes: {
     liquid: {
-        liquid: cryofluid
+        liquid: duoliquid
         amount: 0.3
         booster: true
         optional: true
@@ -26,7 +26,7 @@ consumes: {
 
 drawMineItem: true
 rotateSpeed: 2.25
-liquidBoostIntensity: 2.0
+liquidBoostIntensity: 2.5
 drawRim: true
 drillTime: 200
 tier: 2
