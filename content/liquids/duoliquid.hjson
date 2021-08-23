@@ -1,8 +1,8 @@
 type: Liquid
-temperature: 1.4
+temperature: 1.0
 flammability: 1
 viscosity: 0.55
-heatCapacity: 0
-explosiveness: 4
-color: 8F665B
+heatCapacity: 0.3
+explosiveness: 2
+color: 6E7080
 research: slag
