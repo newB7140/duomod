@@ -9,11 +9,12 @@ requirements: [
 ammoTypes: { 
     duonium: {
         type: ArtilleryBulletType 
-        damage: 60
+        damage: 40
         speed: 2 
         lifetime: 130
         width: 10
         height: 12
+        buildingDamageMultiplier: 1.5
         hitEffect: blastExplosion
         knockback: 0.8
         splashDamage: 30
@@ -24,6 +25,7 @@ ammoTypes: {
         fragBullet: {
             damage: 40
             speed: 2
+            buildingDamageMultiplier: 1.5
             lifetime: 40
             hitEffect: none
             despawnEffect: flakExplosion
