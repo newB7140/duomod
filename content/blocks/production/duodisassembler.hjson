@@ -28,9 +28,11 @@ consumes: {
 }
 
 results: [
-    lead/4
-    duonium/1 
-    graphite/2
+    lead/48
+    surgeAlloy/2
+    duonium/16 
+    duomodule/4
+    graphite/30
 ]
 
 craftTime: 12
