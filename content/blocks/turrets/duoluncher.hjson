@@ -21,7 +21,7 @@ reloadTime: 6
 range: 168
 size: 2
 maxAmmo: 40
-shots: 1
+shots: 1 
 targetGround: true
 targetAir: true 
 recoilAmount: 1
