@@ -12,7 +12,7 @@ ammoTypes: {
         lifetime: 42
         width: 5
         height: 6 
-        ammoPerShot: 10
+        ammoMultiplier: 8
         sprite: duomod-duobullet
     }
 } 
