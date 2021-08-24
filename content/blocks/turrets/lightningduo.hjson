@@ -13,6 +13,7 @@ ammoTypes: {
         lightninglength: 12
         lightninglengthRand: 2
         lightningcolor: 8fefef
+        ammoMultiplier: 5
     }
 } 
 
