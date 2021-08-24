@@ -24,7 +24,9 @@ ammoTypes: {
         fragLifeMin: 0.4
         fragBullet: {
             damage: 40
-            speed: 2
+            speed: 1.5
+            splashDamage: 30
+            splashDamageRadius: 20
             buildingDamageMultiplier: 1.5
             lifetime: 40
             hitEffect: none
