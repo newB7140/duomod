@@ -21,7 +21,7 @@ result: duoliquid
 baseEfficiency: 0.5
 attribute: water
 updateEffect: pulverize
-updateEffectChance: 0.04
+updateEffectChance: 0.015
 
 category: production
 research: duodrill
