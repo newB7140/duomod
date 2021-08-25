@@ -12,7 +12,9 @@ ammoTypes: {
         type: BasicBulletType 
         damage: 30
         speed: 5 
-        lifetime: 12
+        lifetime: 20
+        splashDamage: 10
+        splashDamageRadius: 50
         width: 4
         height: 5 
         sprite: duomod-duobullet
@@ -20,7 +22,7 @@ ammoTypes: {
 } 
 
 reloadTime: 30
-range: 60
+range: 96
 size: 2
 shots: 12
 targetGround: true
@@ -29,7 +31,7 @@ recoilAmount: 3
 rotateSpeed: 10
 inaccuracy: 5
 shootCone: 6
-health: 800
+health: 1450
 shootSound: shootSnap 
 
 category: turret
