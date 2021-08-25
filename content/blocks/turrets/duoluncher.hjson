@@ -11,6 +11,10 @@ ammoTypes: {
         speed: 4 
         lifetime: 42
         homingRange: 30
+        homingPower: 0.02
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 3
         width: 5
         height: 6 
         ammoMultiplier: 10
@@ -25,9 +29,6 @@ maxAmmo: 40
 shots: 1 
 targetGround: true
 targetAir: true 
-pierce: true
-pierceBuilding: true
-pierceCap: 3
 recoilAmount: 1
 rotateSpeed: 15
 inaccuracy: 0
