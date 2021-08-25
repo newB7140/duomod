@@ -22,6 +22,7 @@ ammoTypes: {
         sprite: duomod-duobullet
         fragBullets: 10
         fragLifeMin: 0.4
+        fragCone: 60
         fragBullet: {
             damage: 20
             speed: 1.5
