@@ -11,7 +11,7 @@ ammoTypes: {
         speed: 4 
         lifetime: 42
         homingRange: 30
-        homingPower: 0.02
+        homingPower: 1
         pierce: true
         pierceBuilding: true
         pierceCap: 3
