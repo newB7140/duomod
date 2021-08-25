@@ -1,4 +1,4 @@
-type: NuclearReactor
+type: ImpactReactor
 size: 2
 health: 500
 itemCapacity: 10
