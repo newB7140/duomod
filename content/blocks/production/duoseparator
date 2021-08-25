@@ -1,0 +1,32 @@
+type: Separator
+size: 2
+health: 350
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+itemCapacity: 15
+
+requirements: [ 
+    lead/80 
+    duonium/50
+    silicon/25
+] 
+
+consumes: {  
+    power: 2
+    liquid: {
+        liquid: duoliquid
+        amount: 0.8
+    }
+}
+
+results: [
+    duonium/1
+]
+
+craftTime: 60
+craftEffect: smeltsmoke
+category: crafting
+research: duomelter
