@@ -20,14 +20,14 @@ ammoTypes: {
         splashDamage: 30
         splashDamageRadius: 20
         sprite: duomod-duobullet
-        fragBullets: 5
+        fragBullets: 8
         fragLifeMin: 0.4
         fragBullet: {
             damage: 40
             speed: 1.5
             splashDamage: 30
             splashDamageRadius: 20
-            buildingDamageMultiplier: 1.5
+            buildingDamageMultiplier: 1.0
             lifetime: 40
             hitEffect: none
             despawnEffect: flakExplosion
@@ -46,6 +46,7 @@ targetGround: true
 targetAir: false
 recoilAmount: 3
 rotateSpeed: 10
+velocityInaccuracy: 0.2
 inaccuracy: 2
 shootCone: 6
 health: 900
