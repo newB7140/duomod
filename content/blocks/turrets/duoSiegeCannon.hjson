@@ -9,25 +9,25 @@ requirements: [
 ammoTypes: { 
     duonium: {
         type: ArtilleryBulletType 
-        damage: 40
+        damage: 20
         speed: 2 
         lifetime: 130
         width: 10
         height: 12
-        buildingDamageMultiplier: 1.5
+        buildingDamageMultiplier: 2.5
         hitEffect: blastExplosion
         knockback: 0.8
         splashDamage: 30
         splashDamageRadius: 20
         sprite: duomod-duobullet
-        fragBullets: 8
+        fragBullets: 10
         fragLifeMin: 0.4
         fragBullet: {
-            damage: 40
+            damage: 20
             speed: 1.5
-            splashDamage: 30
+            splashDamage: 15
             splashDamageRadius: 20
-            buildingDamageMultiplier: 1.0
+            buildingDamageMultiplier: 2.0
             lifetime: 40
             hitEffect: none
             despawnEffect: flakExplosion
