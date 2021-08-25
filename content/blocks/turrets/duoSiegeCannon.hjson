@@ -3,7 +3,7 @@ type: ItemTurret
 requirements: [
     copper/200,
     duonium/20,
-    silicon/30
+    silicon/80
 ] 
 
 ammoTypes: { 
@@ -14,13 +14,13 @@ ammoTypes: {
         lifetime: 130
         width: 10
         height: 12
-        buildingDamageMultiplier: 2.5
+        buildingDamageMultiplier: 2.0
         hitEffect: blastExplosion
         knockback: 0.8
         splashDamage: 30
         splashDamageRadius: 20
         sprite: duomod-duobullet
-        fragBullets: 10
+        fragBullets: 5
         fragLifeMin: 0.4
         fragCone: 60
         fragBullet: {
@@ -28,7 +28,7 @@ ammoTypes: {
             speed: 1.5
             splashDamage: 15
             splashDamageRadius: 20
-            buildingDamageMultiplier: 2.0
+            buildingDamageMultiplier: 1.5
             lifetime: 40
             hitEffect: none
             despawnEffect: flakExplosion
