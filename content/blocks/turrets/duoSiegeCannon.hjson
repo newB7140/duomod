@@ -46,7 +46,7 @@ shots: 4
 targetGround: true
 targetAir: false
 recoilAmount: 3
-rotateSpeed: 10
+rotateSpeed: 1
 velocityInaccuracy: 0.07
 inaccuracy: 2
 shootCone: 6
