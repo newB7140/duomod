@@ -4,7 +4,8 @@ health: 60
 itemCapacity: 10
 liquidCapacity: 60
 itemDuration: 150
-powerProduction: 21
+generateEffect: blastExplosion
+powerProduction: 22
 consumes: {
     liquid: {
         liquid: duoliquid
