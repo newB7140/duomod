@@ -27,7 +27,7 @@ recoilAmount: 1
 rotateSpeed: 20
 inaccuracy: 0
 shootCone: 6
-health: 250
+health: 550
 shootSound: shootSnap 
 
 category: turret
