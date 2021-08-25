@@ -27,14 +27,14 @@ ammoTypes: {
 reloadTime: 30
 range: 120
 size: 2
-shots: 1820
+shots: 120
 targetGround: true
 targetAir: true 
 recoilAmount: 0
 rotateSpeed: 15
 inaccuracy: 90
 shootCone: 6
-health: 500
+health: 1800
 
 category: turret
 research: wave
