@@ -27,7 +27,7 @@ ammoTypes: {
 reloadTime: 30
 range: 120
 size: 2
-shots: 120
+shots: 1820
 targetGround: true
 targetAir: true 
 recoilAmount: 0
