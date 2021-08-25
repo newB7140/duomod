@@ -1,13 +1,9 @@
-type: NuclearReactor
+type: SingleTypeGenerator
 size: 2
-health: 500
+health: 60
 itemCapacity: 10
 liquidCapacity: 60
-itemDuration: 120
-heating: 0.003
-explosionRadius: 5
-explosionDamage: 120
-explodeEffect: blastExplosion
+itemDuration: 150
 powerProduction: 21
 consumes: {
     liquid: {
