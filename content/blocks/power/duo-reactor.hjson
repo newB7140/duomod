@@ -1,12 +1,15 @@
-type: ImpactReactor
+type: NuclearReactor
 size: 2
 health: 500
 itemCapacity: 10
 liquidCapacity: 60
 itemDuration: 120
+heating: 0.001
+explosionRadius: 5
+explosionDamage: 150
+explodeEffect: blastExplosion
 powerProduction: 21
 consumes: {
-    power: 0.5
     liquid: {
         liquid: duoliquid
         amount: 0.5
