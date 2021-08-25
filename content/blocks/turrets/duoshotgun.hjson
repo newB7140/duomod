@@ -30,7 +30,7 @@ targetAir: true
 recoilAmount: 3
 rotateSpeed: 10
 inaccuracy: 5
-shootCone: 6
+shootCone: 4
 health: 1450
 shootSound: shootSnap 
 
