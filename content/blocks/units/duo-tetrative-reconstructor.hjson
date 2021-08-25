@@ -28,7 +28,7 @@ consumes: {
             ]
         }
     liquid: {
-        liquid: duooliquid
+        liquid: duoliquid
         amount: 1
     }
 }
