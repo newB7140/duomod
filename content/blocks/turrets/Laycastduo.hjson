@@ -12,7 +12,7 @@ ammoTypes: {
         type: LaserBoltBulletType  
         speed: 5  
         lifetime: 40
-        damage: 100
+        damage: 250
         healPercent: 8
         collidesTeam: true 
         backColor: bfef8f
@@ -22,7 +22,7 @@ ammoTypes: {
         type: LaserBoltBulletType  
         speed: 4  
         lifetime: 50
-        damage: 50
+        damage: 150
         healPercent: 5
         collidesTeam: true 
         backColor: bfef8f
@@ -35,14 +35,15 @@ ammoTypes: {
 reloadTime: 60
 range: 176
 size: 2
-shots: 1
+burstSpacing: 5
+shots: 3
 targetGround: true
 targetAir: true 
 recoilAmount: 1
 rotateSpeed: 15
 inaccuracy: 0
 shootCone: 6
-health: 400
+health: 1600
 shootSound: shootSnap 
 
 category: turret
