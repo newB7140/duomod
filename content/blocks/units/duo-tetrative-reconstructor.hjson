@@ -7,10 +7,11 @@ constructTime: 1500
 solid: false
 
 requirements: [ 
-    copper/350 
-    lead/150 
-    duonium/20
+    copper/750 
+    lead/450 
+    duonium/220
     silicon/40
+    titanium/75
 ] 
 
 upgrades: [ 
@@ -18,6 +19,8 @@ upgrades: [
 ] 
 
 consumes: { 
+    liquid : duoliquid
+    amount : 1
     items: { 
         items: [ 
             { 
