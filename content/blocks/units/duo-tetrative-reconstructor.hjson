@@ -18,27 +18,20 @@ upgrades: [
     [megaduo, gigaduo]
 ] 
 
-consumes: { 
-    liquid : duoliquid
-    amount : 1
-    items: { 
-        items: [ 
-            { 
-                item: duonium 
-                amount: 10 
-            }, 
-            { 
-                item: silicon 
-                amount: 50 
-            },
-            {
-                item:titanium
-                amount: 10
-            }
-        ] 
-    } 
-    power: 5
-} 
+consumes: {
+    power: 6
+        items: {
+            items: [
+                titanium/40
+                silicon/100
+                duonium/20
+            ]
+        }
+    liquid: {
+        liquid: duooliquid
+        amount: 1
+    }
+}
 
 category: units
 research: duo-multiplicative-reconstructor
