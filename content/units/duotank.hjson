@@ -1,9 +1,11 @@
-type: flying
+type: mech
 speed: 0.6 
 health: 1000 
 drag: 0.3 
 armor: 10 
-rotateSpeed: 3.5 
+mechSideSway: 0
+mechFrontSway: 0
+rotateSpeed: 1.5 
 hitSize: 12 
 rotateShooting: false 
 weapons: [ 
