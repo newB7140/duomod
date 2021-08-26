@@ -1,0 +1,21 @@
+type: ItemLiquidGenerator
+size: 1
+health: 20
+itemCapacity: 5
+itemDuration: 600
+powerProduction: 1.5
+consumes: {
+    items: {
+        items: [
+            duonium/1
+        ]
+    }
+}
+requirements: [
+    copper/100
+    lead/120
+    graphite/50
+    silicon/80
+]
+category: power
+research: power-node
