@@ -5,7 +5,7 @@ drag: 0.3
 armor: 10 
 mechSideSway: 0
 mechFrontSway: 0
-rotateSpeed: 1.5 
+rotateSpeed: 3.5 
 hitSize: 12 
 rotateShooting: false 
 weapons: [ 
@@ -16,6 +16,7 @@ weapons: [
         y: 0 
         top: true 
         rotate: true 
+        rotateSpeed: 1.5
         bullet: { 
             type: BasicBulletType 
             speed: 8 
