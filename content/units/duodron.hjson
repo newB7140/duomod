@@ -5,14 +5,14 @@ accel: 0.08
 drag: 0.01
 health: 130
 engineOffset: 5.0
-range: 100
+range: 60
 hitSize: 6
 weapons: [ 
     { 
         name: none 
         y: 0 
         x: 0 
-        reload: 10 
+        reload: 15 
         shootSound: shoot 
         bullet: standardCopper
     }
