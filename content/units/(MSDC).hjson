@@ -1,6 +1,6 @@
 type: flying
 flying: true 
-speed: 0.6
+speed: 0.3
 accel: 0.08
 drag: 0.01
 health: 3000
@@ -24,8 +24,8 @@ weapons: [
             height: 1
             splashDamageRadius: 80 
             splashDamage: 800
-            hitEffect: greenLaserCharge
-            shootEffect: greenLaserChargeSmall
+            hitEffect: massiveExplosion
+            despawnEffect: greenBomb
             hitShake: 5
         } 
     }
