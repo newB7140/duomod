@@ -1,4 +1,4 @@
-type: ItemLiquidGenerator
+type: SingleTypeGenerator
 size: 1
 health: 20
 itemCapacity: 5
