@@ -20,14 +20,14 @@ weapons: [
         bullet: { 
             type: BasicBulletType 
             speed: 10 
-            damage: 300 
+            damage: 370 
             pierce: true
             pierceBuilding: true
             pierceCap: 4
             width: 16 
             height: 19
             splashDamageRadius: 30 
-            splashDamage: 20 
+            splashDamage: 50 
             lifetime: 29 
             trailColor: d06b53 
             backColor: d06b53 
