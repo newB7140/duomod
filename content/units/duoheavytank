@@ -1,0 +1,49 @@
+type: mech
+speed: 0.4
+health: 5500 
+drag: 0.3 
+armor: 10 
+mechSideSway: 0
+mechFrontSway: 0
+rotateSpeed: 2.5 
+hitSize: 16 
+rotateShooting: false 
+weapons: [ 
+    { 
+        name: duolong
+        reload: 120 
+        x: 0 
+        y: 0 
+        top: true 
+        rotate: true 
+        rotateSpeed: 0.8
+        bullet: { 
+            type: BasicBulletType 
+            speed: 10 
+            damage: 300 
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 4
+            width: 16 
+            height: 19
+            splashDamageRadius: 30 
+            splashDamage: 20 
+            lifetime: 29 
+            trailColor: d06b53 
+            backColor: d06b53 
+            frontColor: d06b53 
+            hitEffect: blastExplosion
+        } 
+    } 
+] 
+
+research: { 
+    parent: duotank 
+    requirements: [ 
+        {item: copper, amount: 30000}, 
+        {item: duonium, amount: 8000}, 
+        {item: silicon, amount: 15000},
+        {item: titanium, amount: 5000},
+        {item: thorium, amount: 7000}
+    ] 
+}
