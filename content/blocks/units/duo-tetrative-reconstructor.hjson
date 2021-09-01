@@ -15,7 +15,8 @@ requirements: [
 ] 
 
 upgrades: [ 
-    [megaduo, gigaduo]
+    [megaduo, gigaduo],
+    [duotank, duoheavytank]
 ] 
 
 consumes: {
