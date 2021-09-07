@@ -1,7 +1,7 @@
 type: legs
 controller: minerAI
 hitSize: 13
-speed: 0.54
+speed: 1.5
 rotateSpeed: 3
 buildSpeed: 2.1
 mineSpeed: 12
