@@ -11,6 +11,7 @@ accel: 0.09
 health: 900
 armor: 12
 itemCapacity: 120
+faceTarget: true
 legCount: 4
 legLength: 9
 legTrns: 0.6
