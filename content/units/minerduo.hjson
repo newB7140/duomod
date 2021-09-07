@@ -4,12 +4,13 @@ hitSize: 13
 speed: 1.5
 rotateSpeed: 3
 buildSpeed: 2.1
-mineSpeed: 12
+mineSpeed: 7.5
 mineTier: 3
 drag: 0.4
 accel: 0.09
 health: 900
 armor: 12
+itemCapacity: 120
 legCount: 4
 legLength: 9
 legTrns: 0.6
