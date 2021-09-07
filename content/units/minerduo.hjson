@@ -20,6 +20,27 @@ hovering: true
 buildBeamOffset: 10
 allowLegStep: true
 visualElevation: 0.2f
+
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 90
+        shootSound: shoot 
+        bullet: { 
+            type: LaserBoltBulletType  
+            speed: 3  
+            lifetime: 40
+            damage: 15
+            healPercent: 7
+            collidesTeam: true 
+            backColor: bfef8f
+            frontColor: ffffff 
+        } 
+    }
+]
+
 research: {
     parent: spiritduo
     requirements: 
