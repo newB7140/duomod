@@ -7,7 +7,7 @@ rotateSpeed: 3
 buildSpeed: 2.1
 mineSpeed: 7.5
 mineTier: 3
-minelaserOffset: -8
+laserOffset: -8
 drag: 0.4
 accel: 0.09
 health: 900
