@@ -10,6 +10,7 @@ mineTier: 3
 drag: 0.4
 accel: 0.09
 health: 900
+isCounted: false
 armor: 12
 itemCapacity: 120
 faceTarget: true
