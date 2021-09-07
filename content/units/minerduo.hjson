@@ -22,8 +22,9 @@ research: {
     parent: spiritduo
     requirements: 
     [ 
-        {item: copper, amount: 500},
-        {item: titanium, amount: 300},
-        {item: silicon, amount: 200},
+        {item: copper, amount: 5000},
+        {item: titanium, amount: 3400},
+        {item: silicon, amount: 2000},
+        {item: duonium, amount: 7000},
     ]
 }
