@@ -2,7 +2,7 @@ type: UnitFactory
 
 health: 100
 size: 1
-itemCapacity: 60 
+itemCapacity: 100
 
 requirements: [ 
     copper/50 
@@ -23,6 +23,14 @@ plans: [
         requirements: [
             duomodule/10
             silicon/20 
+        ]
+        time:600
+    },
+    {
+        unit: minerduo
+        requirements: [
+            duomodule/25
+            copper/50
         ]
         time:600
     }
