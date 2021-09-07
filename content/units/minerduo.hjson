@@ -25,7 +25,7 @@ visualElevation: 0.2f
 
 weapons: [ 
     { 
-        name: none 
+        name: duobullet-back
         y: 0 
         x: 0 
         reload: 90
