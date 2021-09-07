@@ -1,0 +1,29 @@
+type: legs
+controller: minerAI
+hitSize: 13
+speed: 0.54
+rotateSpeed: 3
+buildSpeed: 2.1
+mineSpeed: 12
+mineTier: 3
+drag: 0.4
+accel: 0.09
+health: 900
+armor: 12
+legCount: 4
+legLength: 9
+legTrns: 0.6
+legMoveSpace: 1.4
+hovering: true
+buildBeamOffset: 10
+allowLegStep: true
+visualElevation: 0.2f
+research: {
+    parent: spiritduo
+    requirements: 
+    [ 
+        {item: copper, amount: 500},
+        {item: titanium, amount: 300},
+        {item: silicon, amount: 200},
+    ]
+}
