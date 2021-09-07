@@ -3,8 +3,6 @@ controller: minerAI
 flying: true
 hitSize: 13
 speed: 1.5
-canBoost: true
-boostMultiplier: 2
 rotateSpeed: 3
 buildSpeed: 2.1
 mineSpeed: 7.5
