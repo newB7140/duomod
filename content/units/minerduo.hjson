@@ -3,6 +3,7 @@ controller: minerAI
 flying: true
 hitSize: 13
 outline: true
+lowAltitude: true
 speed: 1.5
 rotateSpeed: 3
 buildSpeed: 2
