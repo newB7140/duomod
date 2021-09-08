@@ -1,11 +1,10 @@
 type: legs
 controller: minerAI
-flying: true
 hitSize: 13
 speed: 1.5
 rotateSpeed: 3
-buildSpeed: 2.1
-mineSpeed: 7.5
+buildSpeed: 2
+mineSpeed: 8
 mineTier: 3
 laserOffset: -16
 drag: 0.4
@@ -34,7 +33,7 @@ weapons: [
         shootSound: shoot 
         bullet: { 
             type: LaserBoltBulletType  
-            speed: 0.5
+            speed: 1
             lifetime: 40
             damage: 15
             healPercent: 7
