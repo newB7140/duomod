@@ -9,6 +9,7 @@ rotateSpeed: 3
 buildSpeed: 2
 mineSpeed: 8
 mineTier: 3
+visualElevation: -1
 laserOffset: -16
 drag: 0.4
 accel: 0.09
