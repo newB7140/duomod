@@ -21,7 +21,7 @@ legTrns: 0.6
 legMoveSpace: 1.4
 hovering: true
 buildBeamOffset: 10
-allowLegStep: true
+allowLegStep: false
 visualElevation: 0.2f
 
 weapons: [ 
