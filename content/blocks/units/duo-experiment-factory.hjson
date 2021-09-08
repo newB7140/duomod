@@ -29,7 +29,7 @@ plans: [
     {
         unit: minerduo
         requirements: [
-            duomodule/25
+            silicon/25
             copper/50
         ]
         time:600
