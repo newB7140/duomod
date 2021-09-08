@@ -1,5 +1,6 @@
 type: legs
 controller: minerAI
+flying: true
 hitSize: 13
 outline: true
 speed: 1.5
