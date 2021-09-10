@@ -1,7 +1,7 @@
 type: UnitFactory 
 
 health: 100
-size: 1
+size: 3
 itemCapacity: 100
 
 requirements: [ 
