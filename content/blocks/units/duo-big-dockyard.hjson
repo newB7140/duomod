@@ -4,6 +4,7 @@ health: 600
 size: 5
 itemCapacity: 100 
 placeableLiquid: true
+solid: false
 
 requirements: [ 
     silicon/40 
