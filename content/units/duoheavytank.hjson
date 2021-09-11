@@ -35,9 +35,9 @@ weapons: [
             frontColor: FFD06C
             hitEffect: blastExplosion
             fragBullets: 8
-            fragLifeMin: 0.2
-            fragLifeMax: 0.25
-            fragCone: 180
+            fragLifeMin: 0.12
+            fragLifeMax: 0.18
+            fragCone: 360
             fragBullet: artilleryPlastic
             shootEffect: {
                 type: ParticleEffect
