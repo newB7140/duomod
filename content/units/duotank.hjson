@@ -21,6 +21,7 @@ weapons: [
             type: BasicBulletType 
             speed: 8 
             damage: 120 
+            shootY: 8
             pierce: true
             pierceBuilding: true
             pierceCap: 2
