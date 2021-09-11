@@ -36,7 +36,7 @@ weapons: [
             fragBullets: 8
             fragLifeMin: 0.4
             fragLifeMax: 0.5
-            fragCone: 180
+            fragCone: 0
             fragBullet: artilleryPlastic
         } 
     } 
