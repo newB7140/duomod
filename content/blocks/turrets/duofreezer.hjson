@@ -21,6 +21,16 @@ ammoTypes: {
         hitEffect: none
         despawnEffect: none
         sprite: duomod-coolbullet
+        shootEffect: {
+            type: WaveEffect
+            lifetime: 30
+            sizeFrom: 0
+            sizeTo: 45
+            colorFrom: c0ecff
+            colorTo: c0ecff50
+            strokeFrom: 15
+            strokeTo: 0
+        }
     }
 } 
 
