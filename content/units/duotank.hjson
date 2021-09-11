@@ -23,16 +23,29 @@ weapons: [
             damage: 120 
             pierce: true
             pierceBuilding: true
-            pierceCap: 3 
+            pierceCap: 2
             width: 13 
             height: 15
             splashDamageRadius: 30 
             splashDamage: 20 
             lifetime: 33 
-            trailColor: d06b53 
-            backColor: d06b53 
-            frontColor: d06b53 
+            trailColor: FFD06C 
+            backColor: FFD06C 
+            frontColor: FFD06C 
             hitEffect: blastExplosion
+            shootEffect: {
+                type: ParticleEffect
+                line: true
+                particles: 5
+                lifetime: 10
+                length: 10
+                lenFrom: 6
+                lenTo: 0
+                strokeFrom: 1.5
+                strokeTo: 1
+                colorFrom: 878787
+                colorTo: 87878750
+            }
         } 
     } 
 ] 
