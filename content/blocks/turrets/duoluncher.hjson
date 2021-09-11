@@ -9,21 +9,21 @@ ammoTypes: {
         type: BasicBulletType 
         damage: 30
         speed: 2.5 
-        lifetime: 100
+        lifetime: 70
         homingRange: 50
-        homingPower: 0.4
+        homingPower: 0.2
         pierce: true
         pierceBuilding: true
-        pierceCap: 4
-        width: 5
-        height: 6 
+        pierceCap: 3
+        width: 6
+        height: 8 
         ammoMultiplier: 10
         sprite: duomod-duobullet
     }
 } 
 
-reloadTime: 6
-range: 216
+reloadTime: 10
+range: 160
 size: 2
 maxAmmo: 80
 shots: 1 
