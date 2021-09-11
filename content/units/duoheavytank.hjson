@@ -1,6 +1,6 @@
 type: mech
 speed: 0.4
-health: 5500 
+health: 5000 
 drag: 0.3 
 armor: 10 
 mechSideSway: 0
@@ -34,8 +34,8 @@ weapons: [
             frontColor: d06b53 
             hitEffect: blastExplosion
             fragBullets: 8
-            fragLifeMin: 0.4
-            fragLifeMax: 0.5
+            fragLifeMin: 0.2
+            fragLifeMax: 0.3
             fragCone: 0
             fragBullet: artilleryPlastic
         } 
