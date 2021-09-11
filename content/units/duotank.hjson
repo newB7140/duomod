@@ -16,7 +16,6 @@ weapons: [
         y: 0 
         top: true 
         rotate: true 
-        recoil: 3.5
         shootY: 13
         rotateSpeed: 1.5
         bullet: { 
