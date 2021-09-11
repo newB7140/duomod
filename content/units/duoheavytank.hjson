@@ -30,15 +30,28 @@ weapons: [
             splashDamageRadius: 30 
             splashDamage: 50 
             lifetime: 29 
-            trailColor: d06b53 
-            backColor: d06b53 
-            frontColor: d06b53 
+            trailColor: FFD06C50
+            backColor: FFD06C
+            frontColor: FFD06C
             hitEffect: blastExplosion
             fragBullets: 8
             fragLifeMin: 0.2
             fragLifeMax: 0.3
             fragCone: 0
             fragBullet: artilleryPlastic
+            shootEffect: {
+                type: ParticleEffect
+                line: true
+                particles: 8
+                lifetime: 12
+                length: 10
+                lenFrom: 6
+                lenTo: 0
+                strokeFrom: 1.5
+                strokeTo: 1.5
+                colorFrom: 878787
+                colorTo: 87878750
+            }
         } 
     } 
 ] 
