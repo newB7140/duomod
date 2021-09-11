@@ -33,8 +33,9 @@ weapons: [
             backColor: d06b53 
             frontColor: d06b53 
             hitEffect: blastExplosion
-            fragBullets: 6
+            fragBullets: 8
             fragLifeMin: 0.4
+            fragLifeMax: 0.5
             fragCone: 180
             fragBullet: artilleryPlastic
         } 
