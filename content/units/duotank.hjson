@@ -17,6 +17,7 @@ weapons: [
         top: true 
         rotate: true 
         shootY: 13
+        mirror: false
         rotateSpeed: 1.5
         bullet: { 
             type: BasicBulletType 
