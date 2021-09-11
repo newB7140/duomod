@@ -16,8 +16,8 @@ weapons: [
         y: 0 
         top: true 
         rotate: true 
-        shootY: 19
-        recoil: 4
+        shootY: 19 
+        mirror: false
         rotateSpeed: 0.8
         bullet: { 
             type: BasicBulletType 
