@@ -7,14 +7,14 @@ requirements: [
 ammoTypes: { 
     duonium: {
         type: BasicBulletType 
-        damage: 30
+        damage: 25
         speed: 2.5 
         lifetime: 70
         homingRange: 50
         homingPower: 0.2
         pierce: true
         pierceBuilding: true
-        pierceCap: 3
+        pierceCap: 2
         width: 6
         height: 8 
         ammoMultiplier: 10
