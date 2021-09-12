@@ -1,6 +1,6 @@
 type: mech
 speed: 0.6 
-health: 1000 
+health: 800 
 drag: 0.3 
 armor: 10 
 mechSideSway: 0
