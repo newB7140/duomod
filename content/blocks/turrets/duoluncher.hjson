@@ -19,6 +19,26 @@ ammoTypes: {
         height: 8 
         ammoMultiplier: 10
         sprite: duomod-duobullet
+    },
+    DB: { 
+        type: MissileBulletType
+        reloadMultiplier: 0.1
+        speed: 2 
+        damage: 100
+        width: 12 
+        height: 12 
+        shrinkY: 0 
+        drag: -0.003 
+        homingRange: 6000 
+        keepVelocity: false
+        splashDamageRadius: 25 
+        splashDamage: 40 
+        lifetime: 6000             
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        weaveScale: 0
+        weaveMag: 1
+        sprite: duoMissileS
     }
 } 
 
