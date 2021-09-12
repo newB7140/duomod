@@ -22,7 +22,7 @@ ammoTypes: {
         lightninglength: 14
         lightninglengthRand: 2
         lightningcolor: f3e979
-        ammoMultiplier: 5
+        ammoMultiplier: 10
         fragBullets: 5
         fragCone: 20
         fragBullet: {
