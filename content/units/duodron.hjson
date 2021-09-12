@@ -12,7 +12,7 @@ weapons: [
         name: none 
         y: 0 
         x: 0 
-        reload: 15 
+        reload: 20 
         shootSound: shoot 
         bullet: standardCopper
     }
