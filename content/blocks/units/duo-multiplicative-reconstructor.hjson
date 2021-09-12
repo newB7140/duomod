@@ -2,7 +2,7 @@ type: Reconstructor
 
 health: 360
 size: 4
-itemCapacity: 80
+itemCapacity: 180
 constructTime: 600 
 solid: false
 
@@ -24,19 +24,19 @@ consumes: {
         items: [ 
             { 
                 item: duonium 
-                amount: 5 
+                amount: 50 
             }, 
             { 
                 item: lead 
-                amount: 30 
+                amount: 100 
             },
             {
                 item:silicon
-                amount: 5
+                amount: 30
             }
         ] 
     } 
-    power: 2.5
+    power: 4.5
 } 
 
 category: units
