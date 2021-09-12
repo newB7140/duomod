@@ -9,7 +9,7 @@ solid: false
 requirements: [ 
     copper/150 
     lead/90 
-    duonium/10
+    duonium/50
 ] 
 
 upgrades: [ 
@@ -23,15 +23,15 @@ consumes: {
         items: [ 
             { 
                 item: duonium 
-                amount: 2 
+                amount: 20 
             }, 
             { 
                 item: lead 
-                amount: 20 
+                amount: 30 
             }
         ] 
     } 
-    power: 1.5
+    power: 2.5
 } 
 
 category: units
