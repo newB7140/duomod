@@ -10,7 +10,7 @@ requirements: [
 ammoTypes: { 
     duonium: {
         type: BasicBulletType 
-        damage: 30
+        damage: 20
         speed: 5 
         lifetime: 20
         splashDamage: 10
@@ -24,7 +24,7 @@ ammoTypes: {
 reloadTime: 30
 range: 96
 size: 2
-shots: 12
+shots: 10
 targetGround: true
 targetAir: true
 recoilAmount: 3
