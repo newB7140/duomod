@@ -12,7 +12,7 @@ weapons: [
         name: none 
         y: 0 
         x: 0 
-        reload: 12  
+        reload: 24  
         shootSound: shoot 
         bullet: standardHoming
     },
