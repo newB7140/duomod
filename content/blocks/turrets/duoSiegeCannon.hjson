@@ -9,7 +9,7 @@ requirements: [
 ammoTypes: { 
     duonium: {
         type: ArtilleryBulletType 
-        damage: 20
+        damage: 10
         speed: 2 
         lifetime: 130
         width: 10
@@ -24,7 +24,7 @@ ammoTypes: {
         fragLifeMin: 0.4
         fragCone: 60
         fragBullet: {
-            damage: 20
+            damage: 15
             speed: 1.5
             splashDamage: 15
             splashDamageRadius: 20
