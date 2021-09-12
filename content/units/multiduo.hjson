@@ -1,12 +1,12 @@
 type: mech
 speed: 0.4
-health: 550
+health: 450
 armor: 7
 hitSize: 10
 weapons: [ 
     { 
         name: none
-        reload: 10 
+        reload: 15 
         x: 2
         y: 0
         top: false 
@@ -14,7 +14,7 @@ weapons: [
     },
     { 
         name: none
-        reload: 10
+        reload: 15
         x: -2
         y: 0
         top: false 
