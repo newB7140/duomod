@@ -13,7 +13,7 @@ weapons: [
         name: none 
         y: 0 
         x: 0 
-        reload: 6  
+        reload: 10  
         shootSound: shoot 
         bullet: standardDense 
     },
@@ -21,7 +21,7 @@ weapons: [
         name: machinegunduo-right
         y: 0 
         x: 3
-        reload: 6  
+        reload: 10  
         shootSound: shoot 
         bullet: { 
             type: BasicBulletType 
@@ -39,7 +39,7 @@ weapons: [
         name: machinegunduo-left
         y: 0 
         x: -3
-        reload: 6  
+        reload: 10  
         shootSound: shoot 
         bullet: { 
             type: BasicBulletType 
