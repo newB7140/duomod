@@ -24,9 +24,12 @@ ammoTypes: {
         lightningcolor: f3e979
         ammoMultiplier: 5
         fragBullets: 5
+        fragCone: 20
         fragBullet: {
             lightningDamage: 15
             lightning: 4
+            lifetime: 40
+            speed: 2.2
             lightningLength : 5
         }
     }
