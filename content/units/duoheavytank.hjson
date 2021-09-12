@@ -1,6 +1,6 @@
 type: mech
 speed: 0.4
-health: 5000 
+health: 3500 
 drag: 0.3 
 armor: 10 
 mechSideSway: 0
@@ -11,7 +11,7 @@ rotateShooting: false
 weapons: [ 
     { 
         name: duolong
-        reload: 80
+        reload: 90
         x: 0 
         y: 0 
         top: true 
@@ -22,10 +22,10 @@ weapons: [
         bullet: { 
             type: BasicBulletType 
             speed: 10 
-            damage: 370 
+            damage: 270 
             pierce: true
             pierceBuilding: true
-            pierceCap: 4
+            pierceCap: 3
             width: 16 
             height: 19
             splashDamageRadius: 30 
@@ -35,7 +35,7 @@ weapons: [
             backColor: FFD06C
             frontColor: FFD06C
             hitEffect: blastExplosion
-            fragBullets: 8
+            fragBullets: 6
             fragLifeMin: 0.12
             fragLifeMax: 0.18
             fragCone: 360
