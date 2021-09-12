@@ -22,7 +22,7 @@ ammoTypes: {
     },
     DB: { 
         type: MissileBulletType
-        reloadMultiplier: 0.1
+        reloadMultiplier: 0.05
         speed: 1
         damage: 100
         width: 20
