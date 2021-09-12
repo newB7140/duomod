@@ -2,7 +2,7 @@ type: Reconstructor
 
 health: 580
 size: 5
-itemCapacity: 100
+itemCapacity: 250
 constructTime: 1500 
 solid: false
 
@@ -20,12 +20,12 @@ upgrades: [
 ] 
 
 consumes: {
-    power: 6
+    power: 10
         items: {
             items: [
-                titanium/40
-                silicon/100
-                duonium/20
+                titanium/80
+                silicon/120
+                duonium/50
             ]
         }
     liquid: {
