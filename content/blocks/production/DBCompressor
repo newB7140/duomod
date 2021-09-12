@@ -1,0 +1,32 @@
+type: GenericCrafter 
+
+health: 350
+size: 2
+
+hasItems: true
+hasPower: true
+itemCapacity: 14 
+
+requirements: [  
+    lead/50
+    silicon/70
+    titanium/30
+    duomodule/20
+] 
+
+consumes: {  
+    power: 4.5
+    items: { 
+        items: [ 
+            duonium/5
+            titanium/2
+        ] 
+    }
+}
+outputItem: DB/1
+
+craftTime: 100
+craftEffect: smeltsmoke
+
+category: crafting
+research: multicomposer
