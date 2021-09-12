@@ -28,14 +28,23 @@ ammoTypes: {
         width: 20
         height: 20 
         shrinkY: 0 
-        drag: -0.003 
+        drag: -0.001 
         homingRange: 6000 
         keepVelocity: false
         splashDamageRadius: 24 
         splashDamage: 100 
         lifetime: 6000             
         hitEffect: blastExplosion
-        despawnEffect: blastExplosion
+        despawnEffect: {
+            type: WaveEffect
+            lifetime: 30
+            sizeFrom: 0
+            sizeTo: 24
+            colorFrom: b28768
+            colorTo: b2876850
+            strokeFrom: 15
+            strokeTo: 0
+        }
         weaveScale: 0
         weaveMag: 1
         sprite: duomod-duoMissileS
