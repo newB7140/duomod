@@ -3,7 +3,7 @@ type: Reconstructor
 health: 580
 size: 5
 itemCapacity: 250
-constructTime: 1500 
+constructTime: 2100 
 solid: false
 
 requirements: [ 
