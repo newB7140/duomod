@@ -9,8 +9,8 @@ requirements: [
 ]
 
 unitType: poly
-itemCapacity: 1000
-unitCapModifier: 4
+itemCapacity: 500
+unitCapModifier: 1
 
 buildVisibility: shown
 category: effect
