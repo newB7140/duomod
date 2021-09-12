@@ -1,0 +1,9 @@
+name: DB
+color: 8f665b
+research: { 
+    parent: duomodule 
+    requirements: 
+    [ 
+        {item: duonium, amount: 21000}
+    ]
+}
