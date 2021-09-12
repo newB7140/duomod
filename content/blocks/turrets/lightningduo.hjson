@@ -15,7 +15,7 @@ ammoTypes: {
         lightningcolor: 8fefef
         ammoMultiplier: 5
     },
-    surgeAlloy: {
+    surge-alloy: {
         type: LightningBulletType 
         damage: 50
         speed: 0.1 
