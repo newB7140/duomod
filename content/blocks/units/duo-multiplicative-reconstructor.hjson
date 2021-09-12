@@ -3,7 +3,7 @@ type: Reconstructor
 health: 360
 size: 4
 itemCapacity: 180
-constructTime: 600 
+constructTime: 1080 
 solid: false
 
 requirements: [ 
