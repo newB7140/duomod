@@ -15,14 +15,14 @@ plans: [
     {
         unit: gunboatduo
         requirements: [
-            duonium/5
+            duonium/15
         ]
         time: 450
     },
     {
         unit: corvettduo
         requirements: [
-            duonium/10
+            duonium/30
         ]
         time: 600
     }
