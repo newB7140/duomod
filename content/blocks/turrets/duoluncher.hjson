@@ -30,6 +30,7 @@ ammoTypes: {
         shrinkY: 0 
         drag: -0.001 
         homingRange: 6000 
+        ammoMultiplier: 4
         keepVelocity: false
         splashDamageRadius: 24 
         splashDamage: 100 
