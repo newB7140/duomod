@@ -15,7 +15,7 @@ consumes: {
     power: 0.3
 }
 
-pumpAmount: 0.05
+pumpAmount: 0.051
 rotateSpeed: 1.6
 result: duoliquid
 baseEfficiency: 0.5
