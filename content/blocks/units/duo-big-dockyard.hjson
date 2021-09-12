@@ -16,9 +16,9 @@ plans: [
     {
         unit: frigateduo
         requirements: [
-            duonium/10
-            lead/15
-            silicon/5
+            duonium/40
+            lead/25
+            silicon/35
         ]
         time: 900
     }
