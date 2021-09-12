@@ -2,8 +2,8 @@ type: Reconstructor
 
 health: 200
 size: 3
-itemCapacity: 50
-constructTime: 450 
+itemCapacity: 80
+constructTime: 600 
 solid: false
 
 requirements: [ 
@@ -23,7 +23,7 @@ consumes: {
         items: [ 
             { 
                 item: duonium 
-                amount: 20 
+                amount: 50 
             }, 
             { 
                 item: lead 
