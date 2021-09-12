@@ -6,7 +6,7 @@ hitsize: 6
 weapons: [ 
     { 
         name: none
-        reload: 10 
+        reload: 20 
         x: 0
         y: 0
         top: false 
