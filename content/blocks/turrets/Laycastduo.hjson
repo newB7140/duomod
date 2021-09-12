@@ -12,7 +12,7 @@ ammoTypes: {
         type: LaserBoltBulletType  
         speed: 5  
         lifetime: 40
-        damage: 150
+        damage: 50
         healPercent: 8
         collidesTeam: true 
         backColor: bfef8f
@@ -22,7 +22,7 @@ ammoTypes: {
         type: LaserBoltBulletType  
         speed: 4  
         lifetime: 50
-        damage: 90
+        damage: 30
         healPercent: 5
         collidesTeam: true 
         backColor: bfef8f
