@@ -1,12 +1,12 @@
 type: mech
 speed: 0.35
-health: 400
+health: 200
 range: 200
 armor: 5
 weapons: [ 
     { 
         name: none
-        reload: 20
+        reload: 45
         x: 0
         y: 0
         top: false 
