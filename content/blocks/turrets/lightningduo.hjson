@@ -14,6 +14,33 @@ ammoTypes: {
         lightninglengthRand: 2
         lightningcolor: 8fefef
         ammoMultiplier: 5
+    },
+    surgeAlloy: {
+        type: LightningBulletType 
+        damage: 50
+        speed: 0.1 
+        lightninglength: 14
+        lightninglengthRand: 2
+        lightningcolor: f3e979
+        ammoMultiplier: 5
+        fragBullets: 4
+        fragLifeMin: 0.4
+        fragCone: 180
+        fragBullet: {
+            damage: 15
+            type: LightningBulletType
+            speed: 1.0
+            buildingDamageMultiplier: 0.8
+            lightninglength: 5
+            lightninglengthRand: 2
+            lightningcolor: f3e979
+            lifetime: 40
+            hitEffect: none
+            despawnEffect: flakExplosion
+            width: 5
+            height: 7
+            hitSound: explosion
+        }
     }
 } 
 
@@ -27,7 +54,7 @@ recoilAmount: 1
 rotateSpeed: 20
 inaccuracy: 0
 shootCone: 6
-health: 550
+health: 750
 shootSound: shootSnap 
 
 category: turret
