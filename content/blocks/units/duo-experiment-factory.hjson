@@ -15,7 +15,7 @@ plans: [
     {
         unit: spiritduo
         requirements: [
-            duomodule/2
+            duomodule/5
         ]
         time:600
     },
@@ -23,7 +23,7 @@ plans: [
         unit: (MSDC)
         requirements: [
             duomodule/10
-            silicon/20 
+            silicon/40 
         ]
         time:600
     },
