@@ -31,14 +31,14 @@ ammoTypes: {
         drag: -0.003 
         homingRange: 6000 
         keepVelocity: false
-        splashDamageRadius: 25 
-        splashDamage: 40 
+        splashDamageRadius: 24 
+        splashDamage: 100 
         lifetime: 6000             
         hitEffect: blastExplosion
         despawnEffect: blastExplosion
         weaveScale: 0
         weaveMag: 1
-        sprite: duoMissileS
+        sprite: duomod-duoMissileS
     }
 } 
 
