@@ -1,6 +1,6 @@
 type: mech
 speed: 0.3
-health: 750
+health: 450
 armor: 8
 hitSize:10
 weapons: [ 
