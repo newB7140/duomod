@@ -23,23 +23,9 @@ ammoTypes: {
         lightninglengthRand: 2
         lightningcolor: f3e979
         ammoMultiplier: 5
-        fragBullets: 4
-        fragLifeMin: 0.4
-        fragCone: 270
-        fragBullet: {
-            damage: 15
-            type: LightningBulletType
-            speed: 1.0
-            buildingDamageMultiplier: 0.8
-            lightninglength: 5
-            lightninglengthRand: 1
-            lightningcolor: f3e979
-            lifetime: 40
-            hitEffect: none
-            width: 5
-            height: 3
-            hitSound: explosion
-        }
+        lightningDamage: 15
+        lightning: 4
+        lightningLength : 5
     }
 } 
 
