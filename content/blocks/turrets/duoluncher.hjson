@@ -34,8 +34,7 @@ ammoTypes: {
         splashDamageRadius: 24 
         splashDamage: 100 
         lifetime: 6000             
-        hitEffect: blastExplosion
-        despawnEffect: {
+        hitEffect: {
             type: WaveEffect
             lifetime: 30
             sizeFrom: 0
@@ -45,6 +44,7 @@ ammoTypes: {
             strokeFrom: 15
             strokeTo: 0
         }
+        despawnEffect: blastExplosion
         weaveScale: 0
         weaveMag: 1
         sprite: duomod-duoMissileS
