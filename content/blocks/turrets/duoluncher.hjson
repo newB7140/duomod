@@ -22,7 +22,7 @@ ammoTypes: {
     },
     DB: { 
         type: MissileBulletType
-        reloadMultiplier: 0.05
+        reloadMultiplier: 0.1
         speed: 1
         damage: 100
         width: 20
@@ -30,7 +30,7 @@ ammoTypes: {
         shrinkY: 0 
         drag: -0.001 
         homingRange: 6000 
-        ammoMultiplier: 2
+        ammoMultiplier: 1
         keepVelocity: false
         splashDamageRadius: 24 
         splashDamage: 100 
