@@ -26,7 +26,8 @@ ammoTypes: {
         fragBullets: 5
         fragCone: 20
         fragBullet: {
-            lightningDamage: 15
+            lightningDamage: 10
+            Damage: 10
             lightning: 4
             lifetime: 40
             speed: 4
