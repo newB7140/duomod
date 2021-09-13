@@ -12,7 +12,7 @@ requirements: [
 ] 
 plans: [ 
     {
-        unit: gunboatduo
+        unit: duoboat
         requirements: [
             copper/15
         ]
