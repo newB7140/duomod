@@ -7,18 +7,18 @@ hitSize: 7
 lotateSpeed: 3.3
 trailLength: 15
 rotateShooting: false
-weapons: [ 
-    { 
+weapons: [
+    {
         name: none
         y: 0 
         x: 0 
         reload: 15  
         shootSound: shoot 
         rotate: true
-        bullet: standardCopper
-        }
+        bullet: standardCopper  
     }
 ]
+
 research: { 
     parent: duoboatcenter
     requirements: 
