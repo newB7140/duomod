@@ -9,6 +9,7 @@ trailLength: 15
 trailLength: 3
 trailScl: 0.1
 outlines: true
+outlineRadius: 3
 rotateShooting: false
 weapons: [
     {
