@@ -8,7 +8,7 @@ lotateSpeed: 3.3
 trailLength: 15
 trailScl: 0.3
 trailX: 4
-rotateShooting: false
+rotateShooting: true
 weapons: [
     {
         name: none
@@ -16,7 +16,7 @@ weapons: [
         x: 0 
         reload: 20  
         shootSound: shoot 
-        rotate: false
+        rotate: true
         bullet: standardCopper  
     }
 ]
