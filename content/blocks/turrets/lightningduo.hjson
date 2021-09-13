@@ -29,8 +29,8 @@ ammoTypes: {
             lightningDamage: 10
             Damage: 10
             lightning: 4
-            lifetime: 40
-            speed: 4
+            lifetime: 0.25
+            speed: 320
             lightningLength : 5
         }
     }
