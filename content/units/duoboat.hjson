@@ -8,6 +8,7 @@ lotateSpeed: 3.3
 trailLength: 15
 trailLength: 3
 trailScl: 0.1
+outlines: true
 rotateShooting: false
 weapons: [
     {
