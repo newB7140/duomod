@@ -6,6 +6,7 @@ health: 120
 hitSize: 4
 lotateSpeed: 3.3
 trailLength: 15
+trailScl: 0.3
 rotateShooting: false
 weapons: [
     {
