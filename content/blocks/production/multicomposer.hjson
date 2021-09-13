@@ -18,11 +18,11 @@ consumes: {
     power: 1
     items: { 
         items: [ 
-            copper/7
+            copper/6
         ] 
     }
 }
-outputItem: duonium/4
+outputItem: duonium/2
 
 craftTime: 40
 craftEffect: pulverizeMedium
