@@ -1,0 +1,25 @@
+type: UnitFactory 
+
+health: 200
+size: 1
+itemCapacity: 20 
+placeableLiquid: true
+solid: false
+
+requirements: [  
+    lead/30 
+    duonium/15
+] 
+plans: [ 
+    {
+        unit: gunboatduo
+        requirements: [
+            copper/15
+        ]
+        time: 300
+    }
+]
+
+category: units 
+
+research: duofactory
