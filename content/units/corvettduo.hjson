@@ -3,7 +3,7 @@ speed: 0.6
 accel: 0.11
 drag: 0.01
 health: 650
-hitSize: 14
+hitSize: 12
 lange: 250
 lotateSpeed: 3.3
 trailLength: 18
@@ -31,7 +31,7 @@ weapons: [
     },
     { 
         name: smallduo
-        y: 0 
+        y: 2 
         x: 0
         reload: 60  
         shootSound: shoot 
