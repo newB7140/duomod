@@ -12,7 +12,7 @@ weapons: [
         name: duogun-left
         y: 0 
         x: -0.6 
-        reload: 20  
+        reload: 10  
         shootSound: shoot 
         rotate: true
         bullet: { 
@@ -21,7 +21,7 @@ weapons: [
             lifetime: 40
             width: 5
             height: 6
-            damage: 20
+            damage: 10
             sprite: bullet
         }
     },
@@ -29,7 +29,7 @@ weapons: [
         name: duogun-right
         y: 0 
         x: 0.6
-        reload: 20  
+        reload: 10  
         shootSound: shoot 
         rotate: true
         bullet: { 
@@ -38,7 +38,7 @@ weapons: [
             lifetime: 40
             width: 5
             height: 6
-            damage: 20
+            damage: 10
             sprite: bullet
         }
     }
