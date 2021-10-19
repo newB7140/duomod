@@ -10,7 +10,7 @@ ammoTypes: {
     metaglass: flakGlass
 } 
 
-reloadTime: 60
+reloadTime: 40
 range: 168
 size: 2
 maxAmmo: 40
@@ -18,10 +18,11 @@ shots: 6
 spread: 8
 alternate: true
 targetAir: true 
-burstSpacing: 5
+targetGround: false
+burstSpacing: 3
 recoilAmount: 1
 rotateSpeed: 15
-inaccuracy: 4
+inaccuracy: 17
 shootCone: 20
 health: 900
 shootSound: shootSnap 
