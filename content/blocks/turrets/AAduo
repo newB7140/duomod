@@ -1,0 +1,30 @@
+type: ItemTurret
+name: duoluncher 
+requirements: [
+    copper/45
+    duonium/20
+    lead/85
+] 
+
+ammoTypes: { 
+    metaglass: flakGlass
+} 
+
+reloadTime: 60
+range: 168
+size: 2
+maxAmmo: 40
+shots: 6
+spread: 8
+alternate: true
+targetAir: true 
+burstSpacing: 5
+recoilAmount: 1
+rotateSpeed: 15
+inaccuracy: 4
+shootCone: 20
+health: 900
+shootSound: shootSnap 
+
+category: turret
+research: duoluncher
