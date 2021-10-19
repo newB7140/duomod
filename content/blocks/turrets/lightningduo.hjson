@@ -43,7 +43,7 @@ shots: 1
 targetGround: true
 targetAir: true 
 recoilAmount: 1
-rotateSpeed: 20
+rotateSpeed: 2.5
 inaccuracy: 0
 shootCone: 6
 health: 750
