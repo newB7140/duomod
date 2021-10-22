@@ -24,7 +24,7 @@ weapons: [
             type: TractorBeamType
             force: 12
             scaledForce: 6
-            damage: 20
+            damage: 0
         }
     }
 ]
