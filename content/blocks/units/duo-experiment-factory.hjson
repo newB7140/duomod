@@ -34,6 +34,14 @@ plans: [
             copper/50
         ]
         time:600
+    },
+    {
+        unit: duotracer
+        requirements: [
+            silicon/30
+            titanium/40
+        ]
+        time:600
     }
 ]
 
