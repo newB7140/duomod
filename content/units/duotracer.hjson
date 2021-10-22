@@ -1,0 +1,38 @@
+type: flying
+flying: true 
+speed: 1.5
+accel: 0.08
+drag: 0.01
+health: 1300
+engineOffset: 5.0
+range: 30
+hitSize: 6
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 20 
+        shootSound: shoot 
+        bullet: standardCopper
+    },
+    {
+        name: none
+        y: 0
+        x: 0
+        bullet: { 
+            type: TractorBeamType
+            force: 12
+            scaledForce: 6
+            damage: 20
+        }
+    }
+]
+
+research: { 
+    parent: duofactory 
+    requirements: 
+    [ 
+        {item: copper, amount: 300}
+    ]
+}
