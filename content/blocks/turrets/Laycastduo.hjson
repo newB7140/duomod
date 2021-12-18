@@ -14,7 +14,7 @@ ammoTypes: {
         lifetime: 40
         damage: 50
         healPercent: 8
-        status: healing
+        
         collidesTeam: true 
         backColor: bfef8f
         frontColor: ffffff 
