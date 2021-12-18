@@ -4,7 +4,7 @@ damageMultiplier: 1
 speedMultiplier: 0.9
 effect: {
     type: ParticleEffect
-    particles: 2
+    particles: 1
     baseLength: 15
     length: 0
     lifetime: 25
