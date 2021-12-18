@@ -5,13 +5,13 @@ speedMultiplier: 0.9
 effect: {
     type: ParticleEffect
     particles: 2
-    baseLength: 20
+    baseLength: 15
     length: 0
     lifetime: 25
     sizeFrom: 2
-    sizeTo: 0
+    sizeTo: 4
     region: duomod-heal
     colorFrom: 6aa84f
-    colorTo: 6aa84f50
+    colorTo: 6aa84f
 }
-effectChance: 0.08
+effectChance: 0.05
