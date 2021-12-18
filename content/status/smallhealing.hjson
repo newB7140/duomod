@@ -12,6 +12,6 @@ effect: {
     sizeTo: 4
     region: duomod-heal
     colorFrom: 6aa84f
-    colorTo: 6aa84f
+    colorTo: 8fef92
 }
 effectChance: 0.05
