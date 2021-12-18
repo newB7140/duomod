@@ -15,7 +15,7 @@ ammoTypes: {
         damage: 50
         healPercent: 8
         collidesTeam: true 
-        status: smallhealing
+        '''status: smallhealing'''
         backColor: bfef8f
         frontColor: ffffff 
     },
