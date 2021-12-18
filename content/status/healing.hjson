@@ -1,0 +1,18 @@
+color: bfef8f
+damage: -10
+healthMultiplier: 1.2
+damageMultiplier: 1
+speedMultiplier: 0.9
+effect: {
+    type: ParticleEffect
+    particles: 2
+    baseLength: 20
+    length: 0
+    lifetime: 25
+    sizeFrom: 2
+    sizeTo: 0
+    region: duomod-heal
+    colorFrom: 6aa84f
+    colorTo: 6aa84f50
+}
+effectChance: 0.08
