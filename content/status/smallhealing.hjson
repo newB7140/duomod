@@ -7,9 +7,9 @@ effect: {
     particles: 1
     baseLength: 15
     length: 0
-    lifetime: 25
-    sizeFrom: 2
-    sizeTo: 4
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 3
     region: duomod-heal
     colorFrom: 6aa84f
     colorTo: 8fef92
