@@ -58,18 +58,6 @@ weapons: [
             despawnEffect: blastExplosion
         }
     }
-    ///{ 
-        name: flakduo
-        y: -15
-        x: 0
-        reload: 30  
-        shootSound: shoot 
-        targetGround: false
-        rotate: true
-        mirror: false
-        alternate: false
-        bullet: flakLead
-    }///
 ]
 research: { 
     parent: duo-dockyard
