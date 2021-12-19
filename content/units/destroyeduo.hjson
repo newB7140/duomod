@@ -1,0 +1,81 @@
+type: naval
+speed: 0.45
+accel: 0.1
+drag: 0.01
+range: 250
+health: 2100
+hitSize: 25
+lotateSpeed: 3.1
+trailLength: 19
+rotateShooting: false
+armor: 8
+weapons: [ 
+    { 
+        name: smallduocannon3
+        y: 3
+        x: 0
+        reload: 60  
+        shootSound: shoot 
+        shots: 3
+        shotDelay: 10
+        mirror: false
+        alternate: false
+        rotate: true
+        bullet: { 
+            type: ArtilleryBulletType  
+            speed: 2  
+            lifetime: 120
+            damage: 20
+            width: 8
+            height: 9
+            splashDamage: 50
+            splashDamageRadius: 20
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+        }
+    },
+    { 
+        name: smallduocannon3
+        y: 18
+        x: 0
+        reload: 60  
+        shootSound: shoot 
+        shots: 3
+        shotDelay: 10
+        mirror: false
+        alternate: false
+        rotate: true
+        bullet: { 
+            type: ArtilleryBulletType  
+            speed: 2  
+            lifetime: 120
+            damage: 20
+            width: 8
+            height: 9
+            splashDamage: 50
+            splashDamageRadius: 20
+            hitEffect: blastExplosion
+            despawnEffect: blastExplosion
+        }
+    },
+    { 
+        name: flakduo
+        y: -15
+        x: 0
+        reload: 30  
+        shootSound: shoot 
+        targetGround: false
+        rotate: true
+        mirror: false
+        alternate: false
+        bullet: flakLead
+    }
+]
+research: { 
+    parent: duo-dockyard
+    requirements: 
+    [ 
+        {item: duonium, amount: 2000}
+        {item: lead, amount: 3000}
+    ]
+}
