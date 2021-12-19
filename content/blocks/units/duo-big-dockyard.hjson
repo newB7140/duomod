@@ -2,7 +2,7 @@ type: UnitFactory
 
 health: 600
 size: 5
-itemCapacity: 100 
+itemCapacity: 200 
 placeableLiquid: true
 solid: false
 
@@ -21,6 +21,15 @@ plans: [
             silicon/35
         ]
         time: 900
+    },
+    {
+        unit: destroyerduo
+        requirements: [
+            duonium/80
+            lead/50
+            silicon/70
+        ]
+        time: 1500
     }
 ]
 
