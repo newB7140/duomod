@@ -15,7 +15,7 @@ shootType: {
     lifetime: 40
     chargeTime: 5
     chargeBeginEffect: lancerLaserchargeBegin
-    sprite: parallax-laser-end
+    sprite: spark
 }
         
 powerUse: 3
