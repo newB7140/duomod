@@ -9,11 +9,11 @@ requirements: [
 shootType: { 
     type: basicBulletType 
     damage: 120 
-    speed: 5
-    width: 15
+    speed: 4
+    width: 25
     homingRange: 60
-    length: 15
-    lifetime: 40
+    length: 40
+    lifetime: 45
     chargeTime: 5
     chargeBeginEffect: lancerLaserchargeBegin
     sprite: duomod-spark
