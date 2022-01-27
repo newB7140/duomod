@@ -10,22 +10,23 @@ shootType: {
     type: basicBulletType 
     damage: 120 
     speed: 5
-    width: 25
+    width: 15
     length: 15
     lifetime: 40
-    chargeTime: 0.001
+    chargeTime: 5
     chargeBeginEffect: lancerLaserchargeBegin
-    sprite: laser
+    sprite: parallax-laser-end
 }
         
 powerUse: 3
 reloadTime: 30
 range: 188
 size: 2
-shots: 1
+shots: 2
 targetGround: true
 targetAir: true 
 recoilAmount: 1
+burstSpacing: 5
 rotateSpeed: 2.5
 inaccuracy: 0
 shootCone: 6
