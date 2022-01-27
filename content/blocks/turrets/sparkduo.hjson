@@ -7,7 +7,7 @@ requirements: [
 ] 
 
 shootType: { 
-    type: LaserBulletType 
+    type: basicBulletType 
     damage: 120 
     speed: 5
     width: 25
