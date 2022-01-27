@@ -24,9 +24,9 @@ ammoTypes: {
         sprite: duomod-coolbullet
         shootEffect: {
             type: WaveEffect
-            lifetime: 101
-            sizeFrom: 1
-            sizeTo: 1
+            lifetime: 100
+            sizeFrom: 10
+            sizeTo: 10
             colorFrom: c0ecff10
             colorTo: c0ecff10
             strokeFrom:320
@@ -35,10 +35,10 @@ ammoTypes: {
     }
 } 
 
-reloadTime: 1
+reloadTime: 2
 range: 150
 size: 2
-shots: 2
+shots: 3
 targetGround: true
 targetAir: true 
 recoilAmount: 0
