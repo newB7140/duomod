@@ -23,7 +23,7 @@ ammoTypes: {
         sprite: duomod-coolbullet
         shootEffect: {
             type: WaveEffect
-            lifetime: 120
+            lifetime: 121
             sizeFrom: 1
             sizeTo: 1
             colorFrom: c0ecff10
