@@ -28,7 +28,7 @@ ammoTypes: {
             sizeTo: 1
             colorFrom: c0ecff10
             colorTo: c0ecff10
-            strokeFrom:240
+            strokeFrom:320
             strokeTo: 320
         }
     }
