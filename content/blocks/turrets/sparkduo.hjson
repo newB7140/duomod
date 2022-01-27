@@ -11,6 +11,7 @@ shootType: {
     damage: 120 
     speed: 5
     width: 15
+    homingRange: 60
     length: 15
     lifetime: 40
     chargeTime: 5
