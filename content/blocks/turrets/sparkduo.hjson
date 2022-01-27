@@ -9,12 +9,12 @@ requirements: [
 shootType: { 
     type: basicBulletType 
     damage: 120 
-    speed: 4
+    speed: 3
     width: 18
     homingRange: 60
-    homingPower: 0.12
+    homingPower: 0.1
     height: 23
-    lifetime: 45
+    lifetime: 80
     pierce: true
     pierceCap: 10
     chargeTime: 5
