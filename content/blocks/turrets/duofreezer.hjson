@@ -11,6 +11,7 @@ ammoTypes: {
     copper: {
         type: BasicBulletType 
         damage: 2
+        ammoMultiplier: 60
         speed: 10 
         lifetime: 16
         width: 14
@@ -23,7 +24,7 @@ ammoTypes: {
         sprite: duomod-coolbullet
         shootEffect: {
             type: WaveEffect
-            lifetime: 501
+            lifetime: 101
             sizeFrom: 1
             sizeTo: 1
             colorFrom: c0ecff10
@@ -34,10 +35,10 @@ ammoTypes: {
     }
 } 
 
-reloadTime: 20
+reloadTime: 1
 range: 150
 size: 2
-shots: 50
+shots: 2
 targetGround: true
 targetAir: true 
 recoilAmount: 0
@@ -45,6 +46,7 @@ rotateSpeed: 15
 inaccuracy: 90
 shootCone: 6
 health: 1800
+maxAmmo:600
 
 category: turret
 research: wave
