@@ -14,8 +14,8 @@ ammoTypes: {
         ammoMultiplier: 60
         speed: 10 
         lifetime: 16
-        width: 140
-        height: 140
+        width: 14
+        height: 14
         status: freezing
         splashDamageRadius: 50
         splashDamage: 1
