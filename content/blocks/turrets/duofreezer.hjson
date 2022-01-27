@@ -26,10 +26,10 @@ ammoTypes: {
             lifetime: 120
             sizeFrom: 160
             sizeTo: 160
-            colorFrom: c0ecff02
-            colorTo: c0ecff03
-            strokeFrom: 15
-            strokeTo: 0
+            colorFrom: c0ecff50
+            colorTo: c0ecff50
+            strokeFrom: 160
+            strokeTo: 160
         }
     }
 } 
