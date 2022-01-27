@@ -16,7 +16,7 @@ ammoTypes: {
         width: 14
         height: 14 
         status: freezing
-        splashDamageRadius: 20
+        splashDamageRadius: 50
         splashDamage: 1
         hitEffect: none
         despawnEffect: none
@@ -37,7 +37,7 @@ ammoTypes: {
 reloadTime: 30
 range: 150
 size: 2
-shots: 200
+shots: 50
 targetGround: true
 targetAir: true 
 recoilAmount: 0
