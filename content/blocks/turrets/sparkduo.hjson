@@ -16,7 +16,7 @@ shootType: {
     lifetime: 40
     chargeTime: 5
     chargeBeginEffect: lancerLaserchargeBegin
-    sprite: spark
+    sprite: duomod-spark
 }
         
 powerUse: 3
