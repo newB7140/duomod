@@ -25,8 +25,8 @@ ammoTypes: {
         shootEffect: {
             type: WaveEffect
             lifetime: 100
-            sizeFrom: 10
-            sizeTo: 10
+            sizeFrom: 0
+            sizeTo: 0
             colorFrom: c0ecff10
             colorTo: c0ecff10
             strokeFrom:320
