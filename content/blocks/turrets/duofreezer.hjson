@@ -26,8 +26,8 @@ ammoTypes: {
             lifetime: 101
             sizeFrom: 1
             sizeTo: 1
-            colorFrom: c0ecff08
-            colorTo: c0ecff08
+            colorFrom: c0ecff10
+            colorTo: c0ecff10
             strokeFrom:320
             strokeTo: 320
         }
