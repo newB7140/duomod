@@ -1,0 +1,35 @@
+type: PowerTurret
+name: sparkduo 
+requirements: [
+    copper/90
+    duonium/30
+    silicon/20
+] 
+
+shootType: { 
+    type: LaserBulletType 
+    damage: 120 
+    speed: 10
+    width: 15 
+    length: 15
+    chargeTime: 0.001
+    chargeBeginEffect: lancerLaserchargeBegin
+    sprite: laser
+}
+        
+powerUse: 3
+reloadTime: 30
+range: 188
+size: 1
+shots: 1
+targetGround: true
+targetAir: true 
+recoilAmount: 1
+rotateSpeed: 2.5
+inaccuracy: 0
+shootCone: 6
+health: 750
+shootSound: shootSnap 
+
+category: turret
+research: lightningduo
