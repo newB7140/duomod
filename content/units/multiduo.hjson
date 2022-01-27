@@ -3,6 +3,7 @@ speed: 0.4
 health: 450
 armor: 7
 hitSize: 10
+drawOutline: true
 weapons: [ 
     { 
         name: none
