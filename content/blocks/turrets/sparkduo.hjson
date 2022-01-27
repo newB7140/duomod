@@ -12,9 +12,10 @@ shootType: {
     speed: 5
     width: 25
     length: 15
+    lifetime: 40
     chargeTime: 0.001
     chargeBeginEffect: lancerLaserchargeBegin
-    sprite: laser
+    sprite: minelaser-end
 }
         
 powerUse: 3
