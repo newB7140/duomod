@@ -9,8 +9,8 @@ requirements: [
 shootType: { 
     type: LaserBulletType 
     damage: 120 
-    speed: 10
-    width: 15 
+    speed: 5
+    width: 25
     length: 15
     chargeTime: 0.001
     chargeBeginEffect: lancerLaserchargeBegin
@@ -20,7 +20,7 @@ shootType: {
 powerUse: 3
 reloadTime: 30
 range: 188
-size: 1
+size: 2
 shots: 1
 targetGround: true
 targetAir: true 
