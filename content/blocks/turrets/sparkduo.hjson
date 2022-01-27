@@ -14,6 +14,7 @@ shootType: {
     homingRange: 60
     homingPower: 0.1
     height: 23
+    shrinkY: 0
     lifetime: 80
     pierce: true
     pierceCap: 10
