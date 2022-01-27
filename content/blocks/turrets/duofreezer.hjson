@@ -35,10 +35,10 @@ ammoTypes: {
     }
 } 
 
-reloadTime: 2
+reloadTime: 4
 range: 150
 size: 2
-shots: 3
+shots: 6
 targetGround: true
 targetAir: true 
 recoilAmount: 0
