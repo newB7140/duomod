@@ -12,8 +12,10 @@ shootType: {
     speed: 4
     width: 20
     homingRange: 60
-    length: 80
+    heigth: 26
     lifetime: 45
+    pierce: true
+    pierceCap: 10
     chargeTime: 5
     chargeBeginEffect: lancerLaserchargeBegin
     sprite: duomod-spark
