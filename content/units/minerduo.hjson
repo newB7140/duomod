@@ -19,14 +19,13 @@ armor: 12
 itemCapacity: 120
 faceTarget: true
 rotateShooting: true
-legCount: 4
-legLength: 9
-legTrns: 0.6
-legMoveSpace: 1.4
-hovering: true
+///legCount: 4///
+///legLength: 9///
+///legTrns: 0.6///
+///legMoveSpace: 1.4///
+hovering: false
 buildBeamOffset: 10
-allowLegStep: true
-visualElevation: 0.2f
+///allowLegStep: true///
 
 weapons: [ 
     { 
