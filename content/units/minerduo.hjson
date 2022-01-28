@@ -1,4 +1,4 @@
-type: legs
+type: flying
 controller: minerAI
 flying: true
 hitSize: 13
