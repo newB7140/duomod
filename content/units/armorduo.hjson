@@ -3,15 +3,22 @@ speed: 0.3
 health: 450
 armor: 8
 hitSize:10
+mechSideSway: 0
+mechFrontSway: 0
+rotateSpeed: 3.5  
+rotateShooting: false 
 weapons: [ 
     { 
-        name: none
-        reload: 80
+        name: basic
+        reload: 360
         x: 0
-        y: 2
+        y: 
         top: false  
-        bullet: { 
-            type: MissileBulletType 
+        burstSpacing: 10
+        shots: 18
+        inaccuracy: 3
+        bullet: standardCopper 
+            ///type: MissileBulletType 
             speed: 3 
             damage: 30 
             width: 8 
@@ -30,7 +37,7 @@ weapons: [
             despawnEffect: blastExplosion
             weaveScale: 0
             weaveMag: 1
-        } 
+        }///
     }
 ]
 
