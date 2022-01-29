@@ -18,26 +18,6 @@ weapons: [
         shots: 18
         inaccuracy: 3
         bullet: standardCopper 
-            ///type: MissileBulletType 
-            speed: 3 
-            damage: 30 
-            width: 8 
-            height: 8 
-            shrinkY: 0 
-            drag: -0.003 
-            homingRange: 60 
-            keepVelocity: false
-            splashDamageRadius: 25 
-            splashDamage: 40 
-            lifetime: 60 
-            trailColor: d06b53 
-            backColor: d06b53 
-            frontColor: d06b53 
-            hitEffect: blastExplosion
-            despawnEffect: blastExplosion
-            weaveScale: 0
-            weaveMag: 1
-        }///
     }
 ]
 
