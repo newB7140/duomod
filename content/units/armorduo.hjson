@@ -9,13 +9,15 @@ rotateShooting: false
 weapons: [ 
     { 
         name: basic
-        reload: 360
+        reload: 180
         x: 0
         y: 0
-        top: false  
-        shotDelay: 10
-        shots: 18
-        inaccuracy: 3
+        top: true 
+        rotate: true
+        mirror: false
+        shotDelay: 3
+        shots: 30
+        inaccuracy: 10
         bullet: standardCopper 
     }
 ]
