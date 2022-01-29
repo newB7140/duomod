@@ -1,5 +1,5 @@
 type: mech
-speed: 0.3
+speed: 0.8
 health: 450
 armor: 8
 hitSize:10
@@ -12,7 +12,7 @@ weapons: [
         name: basic
         reload: 360
         x: 0
-        y: 
+        y: 0
         top: false  
         burstSpacing: 10
         shots: 18
