@@ -14,6 +14,7 @@ ammoTypes: {
         lifetime: 130
         width: 10
         height: 12
+        drag:0.1
         buildingDamageMultiplier: 2.0
         hitEffect: blastExplosion
         knockback: 0.8
