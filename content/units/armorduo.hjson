@@ -18,7 +18,15 @@ weapons: [
         shotDelay: 3
         shots: 30
         inaccuracy: 10
-        bullet: standardCopper 
+        bullet: { 
+            type: BasicBulletType 
+            speed: 2.5
+            lifetime: 60
+            width: 4 
+            height: 6 
+            damage: 9
+            sprite: bullet 
+        }
     }
 ]
 
