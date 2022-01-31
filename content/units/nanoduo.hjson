@@ -19,6 +19,8 @@ weapons: [
             speed:4.1 
             damage: 20    
             hitSize:7 
+            width:1
+            height:1
             lifetime:13 
             pierce:true 
             shootEffect:shootSmallFlame 
@@ -27,7 +29,6 @@ weapons: [
             status:burning 
             keepVelocity:false 
             hittable:false 
-            sprite: none
         } 
     }
 ] 
