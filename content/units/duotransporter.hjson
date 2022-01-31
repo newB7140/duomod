@@ -54,6 +54,24 @@ weapons: [
         } 
     }
 ]
+abilities: [ 
+    { 
+        type: UnitSpawnAbility 
+        spawnX: 3
+        spawnY: -2
+        unit: nanoduo
+        spawnTime: 600
+    },
+    {
+        type: UnitSpawnAbility 
+        spawnX: -3
+        spawnY: -2
+        unit: nanoduo
+        spawnTime: 600
+    }
+]
+
+
 research: { 
     parent: duointerceptor
     requirements: 
