@@ -3,8 +3,8 @@ speed: 1
 health: 100
 drag: 0.1
 armor: 1
-mechSideSway: 0m
-echFrontSway: 0
+mechSideSway: 0
+mechFrontSway: 0
 rotateSpeed: 3.5 
 hitSize: 3 
 weapons: [ 
@@ -33,4 +33,7 @@ weapons: [
 
 research: { 
     parent: miniduo 
+    requirements: [ 
+        {item: copper, amount: 100}  
+    ]
 }
