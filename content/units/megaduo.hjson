@@ -24,7 +24,7 @@ weapons: [
         } 
     },
     { 
-        name: duogun-left
+        name: alpha-gun
         reload: 10 
         x: -3
         y: -3
@@ -32,7 +32,7 @@ weapons: [
         bullet: standardHoming
     },
     { 
-        name: duogun-right
+        name: alpha-gun
         reload: 10 
         x: 3
         y: -3
