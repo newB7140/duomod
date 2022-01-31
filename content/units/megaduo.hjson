@@ -3,6 +3,7 @@ speed: 0.35
 health: 850
 armor: 4
 hitSize: 14
+rotateSpeed: 2
 engineOffset: 10
 engineSize: 6
 weapons: [ 
