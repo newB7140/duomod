@@ -1,0 +1,36 @@
+type: mech
+speed: 1
+health: 100
+drag: 0.1
+armor: 1
+mechSideSway: 0m
+echFrontSway: 0
+rotateSpeed: 3.5 
+hitSize: 3 
+weapons: [ 
+    { 
+        name: none 
+        reload: 20 
+        x: 0 
+        y: 0 
+        top: false 
+        bullet: { 
+            type: BulletType 
+            speed:4.1 
+            damage: 20    
+            hitSize:7 
+            lifetime:13 
+            pierce:true 
+            shootEffect:shootSmallFlame 
+            hitEffect :hitFlameSmall 
+            despawnEffect :none 
+            status:burning 
+            keepVelocity:false 
+            hittable:false 
+        } 
+    }
+] 
+
+research: { 
+    parent: miniduo 
+}
