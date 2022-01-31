@@ -15,7 +15,7 @@ weapons: [
         y: 0 
         top: false 
         bullet: { 
-            type: BulletType 
+            type: BasicBulletType 
             speed:4.1 
             damage: 20    
             hitSize:7 
