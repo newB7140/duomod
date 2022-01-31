@@ -58,14 +58,14 @@ abilities: [
     { 
         type: UnitSpawnAbility 
         spawnX: 3
-        spawnY: -2
+        spawnY: -3
         unit: nanoduo
         spawnTime: 600
     },
     {
         type: UnitSpawnAbility 
         spawnX: -3
-        spawnY: -2
+        spawnY: -3
         unit: nanoduo
         spawnTime: 600
     }
