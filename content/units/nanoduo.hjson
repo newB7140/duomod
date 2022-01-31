@@ -1,16 +1,16 @@
 type: mech
-speed: 1
+speed: 0.8
 health: 100
 drag: 0.1
 armor: 1
 mechSideSway: 0
 mechFrontSway: 0
 rotateSpeed: 3.5 
-hitSize: 3 
+hitSize: 6
 weapons: [ 
     { 
         name: none 
-        reload: 20 
+        reload: 30
         x: 0 
         y: 0 
         top: false 
@@ -27,6 +27,7 @@ weapons: [
             status:burning 
             keepVelocity:false 
             hittable:false 
+            sprite: none
         } 
     }
 ] 
