@@ -18,9 +18,9 @@ weapons: [
         bullet: standardDense 
     },
     { 
-        name: machinegunduo-right
+        name: alpha-gun
         y: 0 
-        x: 3
+        x: 5
         reload: 10  
         shootSound: shoot 
         bullet: { 
@@ -36,9 +36,9 @@ weapons: [
         } 
     },
     { 
-        name: machinegunduo-left
+        name: alpha-gun
         y: 0 
-        x: -3
+        x: -5
         reload: 10  
         shootSound: shoot 
         bullet: { 
