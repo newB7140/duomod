@@ -26,17 +26,23 @@ weapons: [
     { 
         name: alpha-gun
         reload: 10 
-        x: -3
-        y: -3
-        top: false 
+        x: -5
+        y: -2
+        top: false
+        rotate: true 
+        mirror: false 
+        alternate: false 
         bullet: standardHoming
     },
     { 
         name: alpha-gun
         reload: 10 
-        x: 3
-        y: -3
+        x: 5
+        y: -2
         top: false 
+        rotate: true 
+        mirror: false 
+        alternate: false
         bullet: standardHoming
     },
 ]
