@@ -10,7 +10,7 @@ hitSize: 6
 weapons: [ 
     { 
         name: none 
-        reload: 30
+        reload: 60
         x: 0 
         y: 0 
         top: false 
