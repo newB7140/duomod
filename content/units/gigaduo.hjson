@@ -17,7 +17,7 @@ weapons: [
         shots: 1
         shootStatusDuration: 120
         shootStatus: unmoving
-        
+        firstShotDelay: 10
         bullet: { 
             type: basicBulletType 
             speed: 0 
