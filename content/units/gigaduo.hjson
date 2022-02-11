@@ -40,7 +40,7 @@ weapons: [
     },
     { 
         name: none
-        reload: 60
+        reload: 20
         x: 0
         y: 0
         top: false 
