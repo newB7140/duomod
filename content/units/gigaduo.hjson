@@ -22,7 +22,7 @@ weapons: [
         firstShotDelay: 10
         bullet: { 
             type: basicBulletType 
-            speed: 0 
+            speed: 0.001 
             damage: 100 
             width: 12 
             height: 12 
