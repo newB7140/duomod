@@ -1,6 +1,8 @@
 type: mech
 speed: 0.30
 health: 3000
+mechSideSway: 0
+mechFrontSway: 0
 armor: 12
 hitSize: 23
 engineOffset: 10
@@ -29,6 +31,8 @@ weapons: [
             splashDamageRadius: 30 
             splashDamage: 40 
             lifetime: 120
+            pierce: true 
+            pierceCap: 10
             sprite: duomod-spark
         } 
     }
