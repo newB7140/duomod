@@ -36,20 +36,29 @@ weapons: [
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
-        },
-        {
+        }
+    },
+    { 
+        name: none
+        reload: 60
+        x: 0
+        y: 0
+        top: false 
+        range: 200
+        shots: 1
+        bullet: { 
             type: basicBulletType 
-            speed: 1.5 
-            damage: 1
-            width: 0
-            height: 0
+            speed: 2.5
+            damage: 100 
+            width: 15
+            height: 15 
             shrinkY: 0
             shrinkX: 0
             drag: 0
             keepVelocity: true
-            splashDamageRadius: 1
-            splashDamage: 1
-            lifetime: 150
+            splashDamageRadius: 30 
+            splashDamage: 40 
+            lifetime: 80
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
