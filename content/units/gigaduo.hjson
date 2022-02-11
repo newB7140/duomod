@@ -36,6 +36,44 @@ weapons: [
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
+            despawnEffect: { 
+                type: WaveEffect 
+                lifetime: 30 
+                sizeFrom: 0 
+                sizeTo: 40
+                colorFrom: 88A4ff
+                colorTo: 88a4ff50 
+                strokeFrom: 15 
+                strokeTo: 0 
+            }
+            fragCone: 0 
+            fragBullet: {
+                type: basicBulletType 
+                speed: 4
+                damage: 200 
+                width: 30 
+                height: 30
+                shrinkY: 0
+                shrinkX: 0
+                drag: 0
+                keepVelocity: true
+                splashDamageRadius: 30 
+                splashDamage: 40 
+                lifetime: 50
+                pierce: true 
+                pierceCap: 10
+                sprite: duomod-spark
+                despawnEffect: { 
+                    type: WaveEffect 
+                    lifetime: 30 
+                    sizeFrom: 0 
+                    sizeTo: 40
+                    colorFrom: 88A4ff
+                    colorTo: 88a4ff50 
+                    strokeFrom: 15 
+                    strokeTo: 0 
+                }
+            }
         }
     },
     { 
