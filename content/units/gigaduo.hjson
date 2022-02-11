@@ -5,6 +5,7 @@ mechSideSway: 0
 mechFrontSway: 0
 armor: 12
 hitSize: 23
+range: 200
 engineOffset: 10
 engineSize: 6
 weapons: [ 
