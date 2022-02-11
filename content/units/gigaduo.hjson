@@ -10,80 +10,26 @@ weapons: [
         name: none
         reload: 300
         x: 0
-        y: 3
+        y: 0
         top: false 
-        shots: 5
-        spacing: 4
+        shots: 1
+        shootStatusDuration: 120
+        shootStatus: unmoving
+        
         bullet: { 
-            type: MissileBulletType 
-            speed: 3 
+            type: basicBulletType 
+            speed: 0 
             damage: 100 
             width: 12 
             height: 12 
-            shrinkY: 0 
-            drag: -0.003 
-            homingRange: 80 
-            keepVelocity: false
+            shrinkY: -1
+            shrinkX: -1
+            drag: 0
+            keepVelocity: true
             splashDamageRadius: 30 
             splashDamage: 40 
-            lifetime: 80 
-            trailColor: d06b53 
-            backColor: d06b53 
-            frontColor: d06753 
-            hitEffect: blastExplosion
-            despawnEffect: blastExplosion
-            weaveScale: 1
-            weaveMag: 1
-        } 
-    },
-    { 
-        name: duoMK2
-        reload: 300
-        x: -10
-        y: 0
-        top: false 
-        mirror: false
-        alternate: false
-        rotate: true
-        shots: 3
-        shotDelay: 30
-        bullet: { 
-            type: LaserBulletType 
-            damage: 120 
-            speed: 0.001 
-            width: 15 
-            length: 200
-            chargeTime: 200
-            chargeMaxDelay: 200
-            chargeEffects: 7
-            chargeEffect: lancerLaserCharge
-            chargeBeginEffect: lancerLaserChargeBegin
-            sprite: laser
-        } 
-    },
-    { 
-        name: duoMK2
-        reload: 300 
-        x: 10
-        y: 0
-        top: false 
-        mirror: false
-        alternate: false
-        rotate: true
-        shots: 3
-        shotDelay: 30
-        bullet: { 
-            type: LaserBulletType 
-            damage: 120 
-            speed: 0.001 
-            width: 15 
-            length: 200
-            chargeTime: 200
-            chargeMaxDelay: 200
-            chargeEffects: 7
-            chargeEffect: lancerLaserCharge
-            chargeBeginEffect: lancerLaserChargeBegin
-            sprite: laser
+            lifetime: 120
+            sprite: duomod-spark
         } 
     }
 ]
