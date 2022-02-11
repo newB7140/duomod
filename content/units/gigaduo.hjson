@@ -53,7 +53,7 @@ weapons: [
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
-         }
+        }
     }
 ]
 
