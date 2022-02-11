@@ -46,7 +46,8 @@ weapons: [
                 strokeFrom: 15 
                 strokeTo: 0 
             }
-            fragCone: 0 
+            fragCone: 10
+            fragBullets: 10
             fragBullet: {
                 type: basicBulletType 
                 speed: 4
