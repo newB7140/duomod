@@ -15,7 +15,7 @@ weapons: [
         y: 0
         top: false 
         shots: 1
-        shootStatusDuration: 120
+        shootStatusDuration: 160
         shootStatus: unmoving
         firstShotDelay: 10
         bullet: { 
@@ -30,7 +30,7 @@ weapons: [
             keepVelocity: true
             splashDamageRadius: 30 
             splashDamage: 40 
-            lifetime: 120
+            lifetime: 150
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
