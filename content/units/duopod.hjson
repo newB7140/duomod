@@ -13,8 +13,7 @@ weapons: [
         y: 0 
         x: 0 
         reload: 450
-        shootSound: shoot 
-        shoot
+        shoot: 1
         singleTarget: true
         firstShotDelay: 60
         shootStatusDuration: 240
