@@ -56,7 +56,7 @@ weapons: [
         shots: 1 
         shootStatusDuration: 240 
         shootStatus: overclock
-        firstShotDelay: 360
+        firstShotDelay: 0
         bullet: {
             type: BasicBulletType 
             speed: 2.5 
