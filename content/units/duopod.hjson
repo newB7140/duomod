@@ -22,11 +22,11 @@ weapons: [
             type: ContinuousLaserBulletType
             damage: 10
             length: 155
-            drawSize: 60 
+            drawSize: 30
             width: 8
             lifetime: 180
             shake: 0.1
-            color: 88a4ff
+            colors: 88a4ff
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
