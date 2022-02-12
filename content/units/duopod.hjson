@@ -1,8 +1,8 @@
 type: flying
 flying: true 
-speed: 1.5
-accel: 0.08
-drag: 0.01
+speed: 3.0
+accel: 0.5
+drag: 0.5
 health: 330
 engineOffset: 1.0
 range: 120
@@ -22,9 +22,12 @@ weapons: [
             type: ContinuousLaserBulletType
             damage: 10
             length: 155
-            drawSize: 200 
+            drawSize: 60 
             lifetime: 180
             shake: 0.1
+            backColor: 88a4ff
+            frontColor: 88a4ff50
+            colors: 88a4ff
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
