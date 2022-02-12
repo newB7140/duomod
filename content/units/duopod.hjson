@@ -1,0 +1,50 @@
+type: flying
+flying: true 
+speed: 1.5
+accel: 0.08
+drag: 0.01
+health: 330
+engineOffset: 1.0
+range: 120
+hitSize: 6
+weapons: [ 
+    { 
+        name: none 
+        y: 0 
+        x: 0 
+        reload: 450
+        shootSound: shoot 
+        shoot
+        singleTarget: true
+        firstShotDelay: 60
+        shootStatusDuration: 240
+        shootStatus: unmoving
+        bullet: { 
+            type: ContinuousLaserBulletType
+            damage: 10
+            length: 155
+            drawSize: 200 
+            lifetime: 180
+            shake: 0.1
+            despawnEffect: smokeCloud
+            smokeEffect: none
+            shootEffect: {
+                type: WaveEffect 
+                lifetime: 240 
+                sizeFrom: 0 
+                sizeTo: 20 
+                colorFrom: 88A4ff 
+                colorTo: 88a4ff50 
+                strokeFrom: 8 
+                strokeTo: 0 
+            }
+        }
+    }
+]
+
+research: { 
+    parent: duofactory 
+    requirements: [ 
+        {item: copper, amount: 300} 
+    ]
+}
