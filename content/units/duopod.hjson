@@ -27,6 +27,7 @@ weapons: [
             lifetime: 180
             shake: 0.1
             lightColor: 88a4ff55
+            Color: 88a4ff
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
