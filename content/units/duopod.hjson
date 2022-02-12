@@ -21,7 +21,7 @@ weapons: [
         bullet: { 
             type: ContinuousLaserBulletType
             damage: 10
-            length: 155
+            length: 125
             drawSize: 30
             width: 2
             lifetime: 180
