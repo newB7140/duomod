@@ -27,7 +27,6 @@ weapons: [
             shake: 0.1
             backColor: 88a4ff
             frontColor: 88a4ff50
-            colors: 88a4ff
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
