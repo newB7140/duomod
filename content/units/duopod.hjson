@@ -35,7 +35,7 @@ weapons: [
                 sizeFrom: 0 
                 sizeTo: 20 
                 colorFrom: 88A4ff 
-                colorTo: 88a4ff50 
+                colorTo: 88a4ff
                 strokeFrom: 8 
                 strokeTo: 0 
             }
