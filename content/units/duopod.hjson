@@ -23,10 +23,10 @@ weapons: [
             damage: 10
             length: 155
             drawSize: 30
-            width: 8
+            width: 2
             lifetime: 180
             shake: 0.1
-            colors: 88a4ff
+            lightColor: 88a4ff55
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
