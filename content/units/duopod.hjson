@@ -1,6 +1,6 @@
 type: flying
 flying: true 
-speed: 3.0
+speed: 0.8
 accel: 0.5
 drag: 0.5
 health: 330
@@ -23,10 +23,10 @@ weapons: [
             damage: 10
             length: 155
             drawSize: 60 
+            width: 8
             lifetime: 180
             shake: 0.1
-            backColor: 88a4ff
-            frontColor: 88a4ff50
+            color: 88a4ff
             despawnEffect: smokeCloud
             smokeEffect: none
             shootEffect: {
