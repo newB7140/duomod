@@ -46,6 +46,28 @@ weapons: [
         alternate: false
         bullet: standardHoming
     },
+    {
+        name: none 
+        reload: 600 
+        x: 0 
+        y: 0 
+        top: false 
+        range: 200 
+        shots: 1 
+        shootStatusDuration: 240 
+        shootStatus: overclock
+        firstShotDelay: 360
+        bullet: {
+            type: BasicBulletType 
+            speed: 2.5 
+            lifetime: 80 
+            width: 0.001
+            height: 0.001
+            drag: 1
+            damage: 9 
+            sprite: bullet 
+        }
+    }
 ]
 
 research: { 
