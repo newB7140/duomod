@@ -36,6 +36,16 @@ weapons: [
             pierce: true 
             pierceCap: 10
             sprite: duomod-spark
+            shootEffect: {
+                type: WaveEffect 
+                lifetime: 150 
+                sizeFrom: 30
+                sizeTo: 2
+                colorFrom: 88A4ff 
+                colorTo: 88a4ff
+                strokeFrom: 8 
+                strokeTo: 0 
+            }
             despawnEffect: { 
                 type: WaveEffect 
                 lifetime: 30 
